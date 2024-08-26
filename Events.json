@@ -1,0 +1,63 @@
+[
+    // 事件
+    {    
+        "name":"献君三策",
+        "text": "",
+        "choices": [
+            { 
+                "text":"长虹贯日·一字长蛇阵",
+                "triggeredUniques":["[+15]% Strength <for [Military] units><for [10] turns>"],
+                "conditions": []
+            },
+            { 
+                "text":"明修栈道，暗度陈仓！",
+                "triggeredUniques":["[+1] Movement<for [Military] units><for [10] turns>"],
+                "conditions": []
+            },
+            { 
+                "text":"奇门遁甲·八门金锁阵",
+                "triggeredUniques":["[+20]% Strength<vs [Military] units><when defending><for [Military] units><for [10] turns>"],
+                "conditions": []
+            },
+        ]
+    }
+    {    
+        "name":"猛攻",
+        "text": "",
+        "choices": [
+            { 
+                "text":"全军突击！",
+                "triggeredUniques":["[+20]% Strength <when attacking><for [5] turns>",
+                "[-5]% Strength <vs [Military] units> <when defending><for [5] turns>"]
+                //"Consumes [5] [士气]",花费5士气
+                "conditions": []
+            },
+        ]
+    }
+//    {    
+//        "name":"鬼跳",
+//        "text": "",
+//        "choices": [
+//            { 
+//                "text":"来无影去无踪！",
+//                "triggeredUniques":[
+                //"[刺客] units gains the [鬼跳] promotion"刺客单位获得鬼跳晋升
+//                "Withdraws before melee combat<for [Military] units><for [1] turns>",]
+//                "conditions": []
+//            },
+//        ]
+//    }
+//    {
+//        "name": "召唤英雄",
+//        "text": "",
+//          "choices": [
+//            {
+//                "text": "今以地脉族众人之意志，高呼大地之名……",
+//                "triggeredUniques": ["[1] free [地脉族英雄-力山] units appear"
+                //"Provides a [地脉族英雄-力山] in your first [1] cities for free"
+//                ],
+//                "conditions": ["during the [Classical era]", "if [No-地脉族英雄-力山] is not constructed"]
+//            },
+//        ]
+//    },
+]
