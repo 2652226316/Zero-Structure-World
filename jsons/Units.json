@@ -1,0 +1,224 @@
+[
+    // 公民单位
+	{
+		"name": "Settler",//移民
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 100,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction", "Requires at least [2] population", "Can instantly construct a [Colony] improvement <[1] times> <for [Spain]>","This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>","[-26]% production cost <for [聚众之力]> <if [文明领袖-安] is constructed>"],//-33%的生产成本 在［聚众之力]中，如果［文明领袖-安］建设。来源：歌时
+	},
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
+		"This Unit gains the [Blizzard Wind Ability] promotion <for [Finland]>",
+		"[-26]% production cost <for [聚众之力]> <if [文明领袖-安] is constructed>"
+		],
+		"cost": 70
+	},
+	// 聚众之力
+	{
+		"name": "国民护卫队",
+		"unitType": "Shooter",//单位类型
+		"movement": 2,//移动力
+		"strength": 5,//基础力
+		"rangedStrength": 7,//远程攻击力
+		"cost": 35,//花费
+		"uniqueTo": "聚众之力",//独属于
+		"replaces": "Archer",//代替单位
+		"requiredTech": "Trapping",//需要科技
+		//"obsoleteTech": "Iron Working",//过时科技
+		"upgradesTo": "Composite Bowman",//升级成
+		"promotions":["众志成城"],
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"attackSound": "arrow"//攻击时的声音
+	},
+	{
+		"name": "力士",
+		"unitType": "Foot Soldier",
+		"movement": 2,
+		"strength": 9,
+		"cost": 33,
+		"uniqueTo": "聚众之力",
+		"replaces": "Warrior",
+		//"obsoleteTech": "Iron Working",
+		"upgradesTo": "Swordsman",
+		"promotions":["生生不息"],
+		"uniques":["May upgrade to [Spearman] through ruins-like effects",
+		 "Consumes [-1] [Number of Fighters] <for [Palestine]>",
+		 "[+10]% Strength <vs [Military] units> <when defending>",
+		 "[-26]% production cost <for [聚众之力]> <if [文明领袖-然武] is constructed>"
+		 "[+1] Movement<for [聚众之力]> <if [文明领袖-然武] is constructed>"]
+		"attackSound": "nonmetalhit"	
+	},
+	// 曹魏
+	{
+		"name": "大魏虎豹骑",
+		"unitType": "Mobile",
+		"movement": 3,
+		"strength": 15,
+		"cost": 77,
+		"uniqueTo": "曹魏",
+		"replaces": "Horseman"
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"promotions":["训练有素","野性狩猎"],
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking",
+		"No defensive terrain bonus",
+		"[+10]% Strength<when fighting in [Open terrain] tiles><when attacking>",
+		"[-33]% Strength <vs cities> <when attacking>",
+		"Heal this unit by [10] HP <costs [1] [Horses]> <for [2] movement>"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "大魏攻城象",
+		"replaces": "Catapult"
+		"unitType": "Siege",
+		"movement": 1,
+		"strength": 9,
+		"rangedStrength": 12,
+		"cost": 77,
+		"uniqueTo": "曹魏",
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Chivalry",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["No defensive terrain bonus",
+		"[+1] Sight",
+		"Can move after attacking",
+		"[+200]% Strength <vs cities> <when attacking>",
+		"[+100]% Strength <vs cities> <when defending>",
+		"[+50]% Strength <when fighting in [Fort] tiles> <when attacking>",
+		"[+100]% Strength <when fighting in [Citadel] tiles> <when attacking>"],
+		"attackSound": "elephant"
+	},
+	// 斗战威海
+	{
+		"name": "威海炮",
+		"unitType": "Ranged Water",
+		"movement": 4,
+		"strength": 8,
+		"rangedStrength": 10,
+		"cost": 44,
+		"uniqueTo":"斗战威海"
+		"replaces":"Trireme"
+		"requiredTech": "Sailing",
+		"uniques": ["Must set up to ranged attack",
+		"[+200]% Strength <vs cities> <when attacking>",
+		"[+100]% Strength <vs cities> <when defending>",],
+		"attackSound": "cannon"
+	},
+	// 黄巾军
+	{
+	    "name": "三十六方众",
+	    "uniqueTo": "黄巾军",
+		"unitType": "Civilian",
+		"upgradesTo": "Swordsman",
+		"replaces": "Worker",
+		"movement": 2,
+		"strength": 6,
+		"uniques": ["Can build [Land] improvements on tiles", 
+		"Automation is a primary action"],
+		"cost": 70
+	}   
+	// 暗杀楼
+	{
+	    "name": "刺客",
+	    "uniqueTo": "暗杀楼",
+		"unitType": "Foot Soldier",
+		"upgradesTo": "Longswordsman",
+		"movement": 3,
+		"strength": 8,
+		"promotions":["隐身"]
+		"uniques": ["[-26]% Strength <vs [Military] units> <when defending>",
+		"[+26]% Strength <vs [Military] units> <when attacking>",
+		"[This Unit] gains the [鬼跳] status for [1] turn(s)<upon defeating a [Military] unit>"
+		//"Triggers a [鬼跳] event",触发鬼跳事件
+		//"This Unit gains the [鬼跳] promotion<upon defeating a [Military] unit>"击杀军事单位后获得鬼跳晋升
+        //"[This Unit] loses the [指定晋升] status本单位失去指定晋升
+        // "This Unit loses the [指定晋升] promotion <upon turn end>"回合结束时失去指定晋升
+        "[-33]% production cost <for [暗杀楼]> <if [文明领袖-one只屑English鸟] is constructed>"],
+		"cost": 66
+	}   
+	{
+		"name": "狙击手",
+		"unitType": "Shooter",//单位类型
+		"movement": 1,//移动力
+		"strength": 4,//基础力
+		"range": 3,//范围
+		"rangedStrength": 8,//远程攻击力
+		"cost": 44,//花费
+		"uniqueTo": "暗杀楼",//独属于
+		"replaces": "Archer",//代替单位
+		//"requiredTech": "Trapping",//需要科技
+		"obsoleteTech": "Iron Working",//过时科技
+		"upgradesTo": "Composite Bowman",//升级成
+		"promotions":["Cover I"],
+		"uniques":["[+10]% Strength <vs [Anti-Mobile] units> <when attacking>"]
+		"attackSound": "machinegun"//攻击时的声音
+	},
+	{
+		"name": "死士",
+		"unitType": "Foot Soldier",
+		"movement": 2,
+		"strength": 9,
+		"cost": 33,
+		"uniqueTo": "暗杀楼",
+		"replaces": "Warrior",
+		//"obsoleteTech": "Iron Working",
+		"upgradesTo": "Swordsman",
+		"promotions":["训练有素"],
+		"uniques":["May upgrade to [Spearman] through ruins-like effects",
+		 "Consumes [-1] [Number of Fighters] <for [Palestine]>",
+		 "[+10]% Strength <vs [Military] units> <when defending>",
+		 "This Unit gains the [服毒自尽] promotion<when below [20] HP>"]
+		"attackSound": "nonmetalhit"	
+	},
+	// 伟人
+	{
+		"name": "军师",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniques": ["Triggers a [献君三策] event<by consuming this unit>", 
+		"[+10]% Strength bonus for [Land] units within [3] tiles",
+		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+		"Great Person - [War]",
+		"All adjacent units heal [+10] HP when healing",
+		"Unbuildable",
+		"Uncapturable",
+		"Can be earned through combat"],
+		"movement": 2	
+	},
+	// 英雄
+	{
+		"name": "地脉族英雄-力山",
+		"unitType": "英雄",
+		"movement": 2,
+		"strength": 10,
+		"uniqueTo": "民族联合",
+		"promotions":["英雄特有-极限成长","地脉之力",]
+		"uniques":[
+//"Costs [10] [地脉族气运]",花费累积资源
+// "Consumes [1] [地脉族气运]",花费回合资源
+//        "[This Unit] gains the [大地掌控者] status for [4] turn(s)<costs [26] [CD]>"
+        "Limited to [1] per Civilization",
+		"Unbuildable",
+		"Never appears as a Barbarian unit"
+		"[+26]% Strength <vs [Military] units>",]
+		"attackSound": "nonmetalhit"	
+	},
+	{
+		"name": "风灵族英雄-轻语",
+		"unitType": "英雄",
+		"movement": 4,
+		"strength": 7,
+		"uniqueTo": "民族联合",
+		"promotions":["英雄特有-极限成长","风灵祝福"]
+		"uniques": ["Limited to [1] per Civilization",
+		"Unbuildable",
+		"Never appears as a Barbarian unit"
+		"Can see invisible [Land] units",]
+		"attackSound": "nonmetalhit"		
+	},
+]

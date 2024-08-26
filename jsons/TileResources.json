@@ -1,0 +1,52 @@
+[
+    // 曹魏资源
+	{
+	    "name": "士气",
+		"resourceType": "Strategic",
+		//开发该资源所需的地块设施 "improvement": "Pasture",
+		"uniques": [
+		"Stockpiled"//贮存
+		"Cannot be traded"//不可交易
+		"Not shown on world screen <when above [500] [士气]>",
+		"Not shown on world screen<when below [1] [士气]>"],	
+	},
+	// 民族联合
+	{
+	    "name": "地脉族气运",
+		"resourceType": "Strategic",
+		//开发该资源所需的地块设施 "improvement": "Pasture",
+		"uniques": [
+		"Stockpiled"//贮存
+		"Cannot be traded"//不可交易
+		"Not shown on world screen <when above [500] [地脉族气运]>",
+		"Not shown on world screen<when below [1] [地脉族气运]>"],	
+	},
+	{
+	    "name": "风灵族气运",
+		"resourceType": "Strategic",
+		//开发该资源所需的地块设施 "improvement": "Pasture",
+		"uniques": [
+		"Stockpiled"//贮存
+		"Cannot be traded"//不可交易
+		"Not shown on world screen <when above [500] [风灵族气运]>",
+		"Not shown on world screen<when below [1] [风灵族气运]>"],	
+	},
+//	{
+//	    "name": "霜降",
+//		"resourceType": "Strategic",
+		//开发该资源所需的地块设施 "improvement": "Pasture",
+//		"uniques": [
+//		"Stockpiled"//贮存
+//		"Cannot be traded"//不可交易
+//		"Not shown on world screen <when above [500] [霜降]>",
+//		"Not shown on world screen"],	
+//	},
+	// 冷却
+	{
+		"name": "CD",  
+		"resourceType": "Strategic",
+	    "uniques": ["Stockpiled", "Cannot be traded", 
+	    "Not shown on world screen<when below [1] [CD]>"
+	    ]
+	},
+]

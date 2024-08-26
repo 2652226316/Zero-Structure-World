@@ -1,0 +1,778 @@
+[
+    //步兵晋升
+	{
+		"name": "Drill I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Foot Soldier","英雄"]
+		"row": 1,
+        "column": 1,
+    },
+    {
+    	"name": "Shock I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Foot Soldier","英雄"]
+		"row": 1,
+        "column": 2,
+    },	
+    {
+		"name": "Drill II",
+		"prerequisites": ["Drill I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Foot Soldier","英雄"]
+		"row": 1,
+        "column": 3,
+    },	
+    {
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Foot Soldier","英雄"]
+		"row": 1,
+        "column": 4,
+    },	
+    {
+		"name": "Drill III",
+		"prerequisites": ["Drill II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Foot Soldier","英雄"]
+		"row": 1,
+        "column": 5,       
+    },	
+    {
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Foot Soldier","英雄"]
+		"row": 1,
+        "column": 6,
+    },
+    {
+    	"name": "Street Battle I",
+    	"prerequisites": ["Drill II","Shock II"],
+		"uniques": ["[+20]% Strength <within [2] tiles of a [City center]>"],
+		"unitTypes": ["Foot Soldier","英雄"]
+		"row": 2,
+        "column": 1,
+    },
+    {
+    	"name": "Hold Ground I",
+    	"prerequisites": ["Drill II","Shock II"],
+		"uniques": ["[+20]% Strength <when defending>"],
+		"unitTypes": ["Foot Soldier","英雄"]
+		"row": 2,
+        "column": 2,
+    },
+    {
+    	"name": "Attack City I",
+    	"prerequisites": ["Drill II","Shock II"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Foot Soldier","英雄"]
+		"row": 2,
+        "column": 3,
+    },	
+    {
+		"name": "Street Battle II",
+		"prerequisites": ["Street Battle I"],
+		"uniques": ["[+20]% Strength <within [2] tiles of a [City center]>"],
+		"unitTypes": ["Foot Soldier","英雄"]
+		"row": 2,
+        "column": 4,    
+    },	
+    {
+		"name": "Hold Ground II",
+		"prerequisites": ["Hold Ground I"],
+		"uniques": ["[+20]% Strength <when defending>"],
+		"unitTypes": ["Foot Soldier","英雄"]
+		"row": 2,
+        "column": 5, 
+    },	
+    {
+		"name": "Attack City II",
+		"prerequisites": ["Attack City I"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Foot Soldier","英雄"]
+		"row": 2,
+        "column": 6,          
+             
+    //射手晋升
+    },
+    {
+		"name": "Salvo I",
+		"uniques": ["[+10]% Strength  <when attacking>"],
+		"unitTypes": ["Shooter","英雄"]
+		"row": 1,
+        "column": 7,
+    },
+    {
+		"name": "Shooting Support I",
+		"uniques": ["[+15]% Strength <when adjacent to a [Melee] unit> <when attacking>"],
+		"unitTypes": ["Shooter","英雄"]
+		"row": 1,
+        "column": 8,
+    },
+    {
+		"name": "Salvo II",
+		"prerequisites": ["Salvo I"],
+		"uniques": ["[+10]% Strength  <when attacking>"],
+	    "unitTypes": ["Shooter","英雄"]
+		"row": 1,
+        "column": 9,
+    },
+    {
+		"name": "Shooting Support II",
+		"prerequisites": ["Shooting Support I"],
+		"uniques": ["[+15]% Strength <when adjacent to a [Melee] unit> <when attacking>"],
+	    "unitTypes": ["Shooter","英雄"]
+		"row": 1,
+        "column": 10,    
+    },
+    {
+		"name": "Salvo III",
+		"prerequisites": ["Salvo II"],
+		"uniques": ["[+10]% Strength  <when attacking>"],
+	    "unitTypes": ["Shooter","英雄"]
+		"row": 1,
+        "column": 11,
+    },
+    {
+		"name": "Shooting Support III",
+		"prerequisites": ["Shooting Support II"],
+		"uniques": ["[+15]% Strength <when adjacent to a [Melee] unit> <when attacking>"],
+	    "unitTypes": ["Shooter","英雄"]
+		"row": 1,
+        "column": 12,
+    },
+    {
+    	"name": "Cover I",
+    	"prerequisites": ["Salvo II","Shooting Support II"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Shooter","英雄"]
+		"row": 2,
+        "column": 7,      
+    },
+    {
+    	"name": "Apply Poison I",
+    	"prerequisites": ["Salvo II","Shooting Support II"],
+		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>"],
+		"unitTypes": ["Shooter","英雄"]
+		"row": 2,
+        "column": 8,  
+    },
+    {
+    	"name": "Bayonet Charge I",
+    	"prerequisites": ["Salvo II","Shooting Support II"],
+		"uniques": ["[+20]% Strength <vs [{Land} {Melee}] units> <when defending>"],
+		"unitTypes": ["Shooter","英雄"]
+		"row": 2,
+        "column": 9, 
+    },
+    {
+    	"name": "Cover II",
+    	"prerequisites": ["Cover I"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Shooter","英雄"]
+		"row": 2,
+        "column": 10,      
+    },
+    {
+    	"name": "Apply Poison II",
+    	"prerequisites": ["Apply Poison I"],
+		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>"],
+		"unitTypes": ["Shooter","英雄"]
+		"row": 2,
+        "column": 11,  
+    },
+    {
+    	"name": "Bayonet Charge II",
+    	"prerequisites": ["Bayonet Charge I"],
+		"uniques": ["[+20]% Strength <vs [{Land} {Melee}] units> <when defending>"],
+		"unitTypes": ["Shooter","英雄"]
+		"row": 2,
+        "column": 12,                   
+    //机动部队晋升
+    },
+    {
+		"name": "Trample I",
+		"uniques": ["[+15]% Strength <vs [Foot Soldier] units> <when attacking>",
+		"[+15]% Strength <vs [Shooter] units> <when attacking>",
+		"[+15]% Strength <vs [Reconnaissance] units> <when attacking>"],
+		"unitTypes": ["Mobile","英雄"]
+		"row": 1,
+        "column": 13,
+    },
+    {
+		"name": "Charge I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Mobile","英雄"]
+		"row": 1,
+        "column": 14,    
+    },
+    {
+		"name": "Trample II",
+		"prerequisites": ["Trample I"],
+		"uniques": ["[+15]% Strength <vs [Foot Soldier] units> <when attacking>",
+		"[+15]% Strength <vs [Shooter] units> <when attacking>",
+		"[+15]% Strength <vs [Reconnaissance] units> <when attacking>"],
+		"unitTypes":["Mobile","英雄"]
+		"row": 1,
+        "column": 15,
+    },
+    {
+		"name": "Charge II",
+		"prerequisites": ["Charge I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes":["Mobile","英雄"]
+		"row": 1,
+        "column": 16,    
+    },
+    {
+		"name": "Trample III",
+	    "prerequisites": ["Trample II"],
+		"uniques": ["[+15]% Strength <vs [Foot Soldier] units> <when attacking>",
+		"[+15]% Strength <vs [Shooter] units> <when attacking>",
+		"[+15]% Strength <vs [Reconnaissance] units> <when attacking>"],
+		"unitTypes": ["Mobile","英雄"]
+		"row": 1,
+        "column": 17,
+    },
+    {
+		"name": "Charge III",
+	    "prerequisites": ["Charge II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Mobile","英雄"]
+		"row": 1,
+        "column": 18,
+    },
+    {
+    	"name": "Wear Armor I",
+    	"prerequisites": ["Trample II","Charge II"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Mobile","英雄"]
+		"row": 2,
+        "column": 13,  
+    },
+    {
+    	"name": "Storm Fortification I",
+    	"prerequisites": ["Trample II","Charge II"],
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Mobile","英雄"]
+		"row": 2,
+        "column": 14,  
+    },
+    {
+    	"name": "Rout I",
+    	"prerequisites": ["Trample II","Charge II"],
+		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>"],
+		"unitTypes": ["Mobile","英雄"]
+		"row": 2,
+        "column": 15,  
+    },	
+    {
+		"name": "Wear Armor II",
+		"prerequisites": ["Wear Armor I"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Mobile","英雄"]
+		"row": 2,
+        "column": 16,    
+    },	
+    {
+		"name": "Storm Fortification II",
+		"prerequisites": ["Storm Fortification I"],
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Mobile","英雄"]
+		"row": 2,
+        "column": 17,      
+    },	
+    {
+		"name": "Rout II",
+		"prerequisites": ["Rout I"],
+		"uniques": ["[+15]% Strength <vs [Wounded] units> <when attacking>"],
+		"unitTypes": ["Mobile","英雄"]
+		"row": 2,
+        "column": 18,         
+    //抗机动单位、直升机晋升
+    },	
+    {
+		"name": "Formation I",
+		"uniques": ["[+15]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+15]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+15]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air","英雄"]
+		"row": 1,
+        "column": 19,
+    },	
+    {
+		"name": "Raid I",
+		"uniques": ["[+15]% Strength <vs [Melee] units> <when attacking>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air","英雄"]
+		"row": 1,
+        "column": 20,
+    },	
+    {
+		"name": "Formation II",
+		"prerequisites": ["Formation I"],
+		"uniques": ["[+15]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+15]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+15]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air","英雄"]
+		"row": 1,
+        "column": 21,
+    },	
+    {
+		"name": "Raid II",
+		"prerequisites": ["Raid I"],
+		"uniques": ["[+15]% Strength <vs [Melee] units> <when attacking>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air","英雄"]
+		"row": 1,
+        "column": 22,    
+    },	
+    {
+		"name": "Formation III",
+		"prerequisites": ["Formation II"],
+		"uniques": ["[+15]% Strength <when adjacent to a [Anti-Mobile] unit> <when defending>","[+15]% Strength <when adjacent to a [Helicopter] unit> <when defending>","[+15]% Strength <when adjacent to a [Anti-Air] unit> <when defending>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air","英雄"]
+		"row": 1,
+        "column": 23,
+    },	
+    {
+		"name": "Raid III",
+		"prerequisites": ["Raid II"],
+		"uniques": ["[+15]% Strength <vs [Melee] units> <when attacking>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air","英雄"]
+		"row": 1,
+        "column": 24,  
+    },
+    {
+    	"name": "Expose Armor I",
+    	"prerequisites": ["Formation II","Raid II"],
+		"uniques": ["[+25]% Strength <vs [Mobile] units>","[+25]% Strength <vs [Air] units>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air","英雄"]
+		"row": 2,
+        "column": 19,  
+    },
+    {
+    	"name": "Break City I",
+    	"prerequisites": ["Formation II","Raid II"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air","英雄"]
+		"row": 2,
+        "column": 20,   
+    },
+    {
+    	"name": "Pass I",
+    	"prerequisites": ["Formation II","Raid II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>","[+15]% Strength <when fighting in [Marsh] tiles>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air","英雄"]
+		"row": 2,
+        "column": 21,             
+    },
+    {
+    	"name": "Expose Armor II",
+    	"prerequisites": ["Expose Armor I"],
+		"uniques": ["[+25]% Strength <vs [Mobile] units>","[+25]% Strength <vs [Air] units>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air","英雄"]
+		"row": 2,
+        "column": 22,     
+    },
+    {
+    	"name": "Break City II",
+    	"prerequisites": ["Break City I"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air","英雄"]
+		"row": 2,
+        "column": 23,  
+    },
+    {
+    	"name": "Pass II",
+    	"prerequisites": ["Pass I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>","[+15]% Strength <when fighting in [Marsh] tiles>"],
+		"unitTypes": ["Anti-Mobile","Helicopter","Anti-Air","英雄"]
+		"row": 2,
+        "column": 24,                        
+    //侦察单位晋升
+    },	
+    {
+		"name": "Detection I",
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Reconnaissance","英雄"]
+		"row": 1,
+        "column": 25,
+    },
+    {
+		"name": "Survivalism I",
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+		"unitTypes": ["Reconnaissance","英雄"],
+	    "row": 1,
+        "column": 26,        
+    },	
+    {
+		"name": "Detection II",
+		"prerequisites": ["Detection I"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Reconnaissance","英雄"]
+		"row": 1,
+        "column": 27,
+	},
+	{
+		"name": "Survivalism II",
+		"prerequisites": ["Survivalism I"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+		"unitTypes": ["Reconnaissance","英雄"],
+        "row": 1,
+        "column": 28,        
+    },	
+    {
+		"name": "Detection III",
+		"prerequisites": ["Detection II"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Reconnaissance","英雄"]
+		"row": 1,
+        "column": 29,
+	},
+	{
+		"name": "Survivalism III",
+		"prerequisites": ["Survivalism II"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"], 
+		"unitTypes": ["Reconnaissance","英雄"],
+        "row": 1,
+        "column": 30,
+    },	
+    // 特殊晋升
+    {
+		"name": "Heal Instantly",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Foot Soldier",
+		"Shooter",
+		"Mobile",
+		"Anti-Mobile","Anti-Air","Helicopter",
+		"Siege",
+		"Reconnaissance",
+		"Melee Water","Ranged Water",
+		"Submarine",
+		"Water Carrier",
+		"Fighter","Bomber",
+		"英雄"
+		],
+        "row": 0,
+        "column": 0
+    },
+    {
+		"name": "Quick Offensive",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I",
+		"Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I",
+		"Detection III","Survivalism III",
+		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
+		"Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Foot Soldier",
+		"Mobile",
+		"Reconnaissance",
+		"Anti-Mobile","Helicopter","Anti-Air","Melee Water","英雄"],
+	    "row": 3	
+        "column": 1,
+    },
+	{
+		"name": "Off-road",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I",
+		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I"],
+		"uniques": ["Ignores terrain cost"],
+		"unitTypes": ["Foot Soldier",
+		"Anti-Mobile","Helicopter","Anti-Air",
+		"Siege","英雄"],
+		"row": 3
+        "column": 2,
+    },
+	{
+		"name": "Hide",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I","Formation III","Raid III","Expose Armor I","Break City I","Pass I","Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I"],
+		"uniques": ["[+30]% Strength <when attacking> <when fighting in [Forest] tiles>","[+30]% Strength <when attacking> <when fighting in [Jungle] tiles>"],
+		"unitTypes": ["Foot Soldier",
+		"Anti-Mobile","Helicopter","Anti-Air",
+		"Shooter","英雄"],
+		"row": 3
+        "column": 3,
+    },
+	{
+		"name": "Amphibious",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I","Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I","Detection III","Survivalism III","Formation III","Raid III","Expose Armor I","Break City I","Pass I"],
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
+		"unitTypes": ["Foot Soldier",
+		"Mobile","英雄"
+		"Reconnaissance",
+		"Anti-Mobile","Helicopter","Anti-Air"],
+		"row": 3,  
+        "column": 4,
+    },
+	{
+		"name": "Rescue",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I",
+		"Detection III","Survivalism III",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I"],
+		"uniques": ["All adjacent units heal [+10] HP when healing"],
+		"unitTypes": ["Foot Soldier","英雄"
+		"Reconnaissance",
+		"Siege"],
+	    "row": 3,  
+        "column": 5,
+    },
+	{
+		"name": "March",
+		"prerequisites": ["Drill III","Shock III","Street Battle I","Hold Ground I","Attack City I",
+		"Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I",
+		"Detection III","Survivalism III",
+		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I",
+		],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Foot Soldier",
+		"Mobile",
+		"Reconnaissance",
+		"Anti-Mobile","Helicopter","Anti-Air",
+		"Siege",
+	    "Submarine","英雄"
+		],
+        "row": 3,  
+        "column": 6,
+    },
+    	{
+		"name": "First Attack",
+		"prerequisites": [
+		"Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I",
+		"Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I"],
+		"uniques": ["[+75]% Strength <when above [95] HP>"],
+		"unitTypes": [
+		"Mobile",
+		"Melee Water","英雄"
+		],
+        "row": 3,  
+        "column": 7, 
+    },
+	{
+		"name": "Rush",
+		"prerequisites": [
+		"Trample III","Charge III","Wear Armor I","Storm Fortification I","Rout I",
+		"Detection III","Survivalism III",
+		"Formation III","Raid III","Expose Armor I","Break City I","Pass I",
+		"Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I",
+		"Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I"
+		],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Mobile",
+		"Reconnaissance",
+		"Anti-Mobile","Helicopter","Anti-Air",
+		"Melee Water","Ranged Water",
+		"Shooter","英雄"
+		"Submarine"],
+        "row": 3,  
+        "column": 8,   
+    },
+	{
+		"name": "Grab Beach",
+		"prerequisites": ["Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I"],
+		"uniques": ["Eliminates combat penalty for attacking across a coast"],
+		"unitTypes": ["Melee Water","英雄"],
+        "row": 3,  
+        "column": 9,
+    },
+	{
+		"name" : "Sealift",
+		"prerequisites": ["Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I"
+		],
+		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
+		"unitTypes": ["Melee Water","Ranged Water","Submarine","英雄"],
+        "row": 3,  
+        "column": 10,
+    },	
+    {
+		"name": "Alert",
+		"prerequisites": [
+		"Boarding Party III","Coastal Raider III","Armor I","Landfall I","Escort I",
+		"Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I"
+		],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": [
+		"Melee Water","Ranged Water",
+		"Shooter","英雄"
+		"Submarine"]
+		"row": 3,
+        "column": 11,   
+    },
+	{
+		"name": "Indirect Fire",
+		"prerequisites": ["Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I"],
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Shooter",
+		"Siege","英雄"
+		"Ranged Water"],
+		"row": 3,
+		"column": 12,
+	},
+	{
+		"name": "Continuous Attack",
+		"prerequisites": ["Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I"
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I",
+		"Interception III", "Dogfighting III", "Continuous Interception I","Air Targeting I",
+		"Pinpoint Bombing III","Saturation Bombing III","Ambush I","Tactical Evasion I"
+		],
+		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
+		"unitTypes": ["Shooter",
+		"Siege","英雄"
+		"Ranged Water",
+		"Submarine",
+		"Fighter","Bomber"
+		],
+         "row": 3
+         "column": 13,    
+    },
+	{
+		"name": "Additional Range",
+		"prerequisites": ["Salvo III","Shooting Support III","Cover I","Apply Poison I","Bayonet Charge I",
+		"Hard III","Bombard III","Strategic Deployment I","Shrapnel I","Detonate I",
+		"Aim III","Firepower Coverage III","Cruise I","Fire Support I","Queue I",
+		"Wolfpack III","Dive III","Armor Piercing I","Noise Reduction I","Carrying Missile I"
+		],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Shooter",
+		"Siege","英雄"
+		"Ranged Water",
+		"Submarine"
+		],
+         "row": 3
+         "column": 14,     
+    },
+	{
+		"name": "Operational Range",
+		"prerequisites": [
+		"Interception III", "Dogfighting III", "Continuous Interception I","Air Targeting I",
+		"Pinpoint Bombing III","Saturation Bombing III","Ambush I","Tactical Evasion I"
+		],
+		"uniques": ["[+2] Range"],
+		"unitTypes": ["Fighter","Bomber","英雄"],
+         "row": 3
+         "column": 15,   
+	},
+	{
+		"name": "Air Repair",
+		"prerequisites": [
+		"Interception III", "Dogfighting III", "Continuous Interception I","Air Targeting I",
+		"Pinpoint Bombing III","Saturation Bombing III","Ambush I","Tactical Evasion I"
+		],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Fighter","Bomber","英雄"],
+         "row": 3
+         "column": 16, 
+    }
+    // 特色晋升
+    {
+		"name": "众志成城",
+		"uniques": ["[+15]% Strength <when adjacent to a [Civilian] unit>"]
+	},
+	{
+		"name": "生生不息",
+		"uniques": ["Heal this unit by [7] HP<upon turn end>"]
+		//"Unit will heal every turn, even if it performs an action","[-3] HP when healing",//每回合结束时，自动回复6点血量。来源：大秦。改版：安！
+	},
+	{
+	    "name": "野性狩猎",
+	    "uniques": ["[+15]% Strength <vs [Mobile] units>"]
+	},
+	{
+		"name": "训练有素",
+		"uniques": ["[+1] Movement",]
+    },
+    {  		
+        "name": "威海",
+		"uniques": ["[+26]% Strength <vs [Water] units>",]
+	}
+	{  		
+        "name": "鬼跳",
+		"uniques": ["Withdraws before melee combat",]
+		//"This Unit loses the [鬼跳] promotion<upon turn end>",]
+    //<with [100]% chance>有百分百概率。
+    }
+    {
+		"name": "服毒自尽",
+		"uniques": ["Unit will heal every turn, even if it performs an action","[-260] HP when healing",]
+	},
+	{
+	    "name": "隐身",
+	    "uniques": ["Invisible to non-adjacent units"]
+	},
+    // 英雄晋升
+    {
+	    "name": "英雄特有-极限成长",
+	    "uniques": ["[+100]% XP gained from combat",
+	    "This Unit gains [7] XP<upon defeating a [Military] unit>",]
+	},
+	{
+	    "name": "地脉之力",
+	    "uniques": ["[-6]% Strength for enemy [Military] units in adjacent [All] tiles<during the [Ancient era]>",
+	    "[-12]% Strength for enemy [Military] units in adjacent [All] tiles<during the [Classical era]>",
+	    "[-18]% Strength for enemy [Military] units in adjacent [All] tiles<during the [Medieval era]>",
+	    "[-24]% Strength for enemy [Military] units in adjacent [All] tiles<during the [Renaissance era]>",
+	    "[-30]% Strength for enemy [Military] units in adjacent [All] tiles<during the [Industrial era]>",
+	    "[-36]% Strength for enemy [Military] units in adjacent [All] tiles<during the [Modern era]>",
+	    "[-42]% Strength for enemy [Military] units in adjacent [All] tiles<during the [Atomic era]>",
+	    "[-48]% Strength for enemy [Military] units in adjacent [All] tiles<during the [Information era]>",
+	    "[-54]% Strength for enemy [Military] units in adjacent [All] tiles<during the [Future era]>"]
+	    "row": 26
+        "column": 1, 
+	},
+	{
+		"name": "山脉共鸣",
+		"prerequisites": ["地脉之力"],
+		"uniques": ["Can pass through impassable tiles",
+		"Heal this unit by [34] HP <upon ending a turn in a [Mountain] tile> <for [民族联合]>",]
+	    "unitTypes": ["英雄"],
+        "row": 26
+        "column": 2, 
+    }
+    {
+		"name": "地灵庇佑",
+		"prerequisites": ["山脉共鸣"],
+		"uniques": ["Ignores terrain cost",
+		"This Unit gains [10] XP <upon ending a turn in a [Land] tile>"]
+		"unitTypes": ["英雄"],
+        "row": 26
+        "column": 3, 
+    }
+    {
+		"name": "大地掌控者",
+		"prerequisites": ["地灵庇佑"],
+		"uniques": ["Heal this unit by [77] HP<costs [26] [CD]><when above [25] [CD]><in [Grassland] tiles>",//在草原地块时回复77HP（冷却:26回合）
+		"[This Unit] gains the [逐日] status for [1] turn(s)<costs [26] [CD]><when above [25] [CD]><in [Plains] tiles>",//在平原地块时＋7移动力（持续一回合）（冷却:26回合）
+		"[This Unit] gains the [霜降] status for [1] turn(s)<costs [26] [CD]><when above [25] [CD]><in [Tundra] tiles>",//在冻土地块时，可发动霜降，相邻的全部敌人扣26HP（冷却:26回合）
+		]
+        "row": 26
+        "column": 4, 
+    }
+    {
+	    "name": "霜降",
+	    "uniques": [""]
+	},
+    {
+	    "name": "逐日",
+	    "uniques": ["[+7] Movement"]
+	},
+	{
+	    "name": "风灵祝福",
+	    "uniques": ["[+1] Movement <for [Wounded] units>",
+	    "[+1] Sight<during the [Ancient era]>","[+2] Sight<during the [Classical era]>",
+	    "[+3] Sight<during the [Medieval era]>",
+	    "[+4] Sight<during the [Renaissance era]>",
+	    "[+5] Sight<during the [Industrial era]>",
+	    "[+6] Sight<during the [Modern era]>",
+	    "[+7] Sight<during the [Atomic era]>",
+	    "[+8] Sight<during the [Information era]>",
+	    "[+9] Sight<during the [Future era]>"]
+	},
+]
+	

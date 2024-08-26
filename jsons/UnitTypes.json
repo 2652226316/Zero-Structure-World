@@ -1,0 +1,442 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+        "uniques": [
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>", "May travel on Water tiles without embarking <for [Indonesia]>"
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>"
+        ]
+    },
+    {
+        "name": "Civilian Water",
+        "movementType": "Water"
+        "uniques": [
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>"
+        ]
+    },
+    {
+        "name": "Reconnaissance",
+        "movementType": "Land"
+        "uniques":[
+        "Can build [Road] improvements on tiles <for [Iron Blood Kingdom]> <for [Human player]>",
+        "May attack when embarked",
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
+        "Cannot attack <in [Marsh] tiles>",
+        
+        "Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>", 
+        "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
+        ]    
+    },
+    {
+        "name": "Foot Soldier",
+        "movementType": "Land"
+        "uniques":[
+        "Can build [Road] improvements on tiles <for [Iron Blood Kingdom]> <for [Human player]>",
+        "May attack when embarked",
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",  
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
+        "Cannot attack <in [Marsh] tiles>",
+        "Ignores Zone of Control <for [Poland]>", "May enter foreign tiles without open borders <for [Poland]>", 
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
+        //"This Unit takes [10] damage<upon turn end><costs [1] [霜降]>",//回合结束时该单位扣10HP
+         //"This Unit takes [10] damage<every [1] turns><when adjacent to a [英雄] unit><for [Major]>"
+        ]
+    },
+    {
+        "name": "Shooter",
+        "movementType": "Land"
+        "uniques":[
+        "May attack when embarked",
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",  
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
+        "Cannot attack <in [Marsh] tiles>",
+        "Gain [35] [Gold] <upon being defeated> <for [Scythian]>",
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>", 
+        "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[-15]% Strength for enemy [Military] units in adjacent [All] tiles <for [Celts]> <if [Civilized Leader-Boudicca] is constructed>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
+        ]    
+    },
+    {
+        "name": "Mobile",
+        "movementType": "Land"
+        "uniques":[
+        "May attack when embarked",
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",  
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
+        "Cannot attack <in [Marsh] tiles>",
+        "[This Unit] heals [5] HP <upon ending a turn in a [Grassland] tile> <for [Scythian]>", "[This Unit] gains [1] XP <upon ending a turn in a [Grassland] tile> <for [Scythian]>",
+        
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>", 
+        "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
+        ]    
+    },
+    {
+        "name": "Anti-Mobile",
+        "movementType": "Land"
+        "uniques":[
+        "May attack when embarked",
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
+        "Cannot attack <in [Marsh] tiles>",
+        
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>", 
+        "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>",
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
+        ]    
+    },
+    {
+        "name": "Anti-Air",
+        "movementType": "Land"
+        "uniques":[
+        "May attack when embarked",
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>", 
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
+        "Cannot attack <in [Marsh] tiles>",
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>", 
+        "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
+        ]        
+    },
+    {
+        "name": "Helicopter",
+        "movementType": "Land",    
+        "uniques":[
+        "May attack when embarked",
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",   
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",       
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
+        ]                
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land"
+        "uniques":[
+        "May attack when embarked",
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        "Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
+        "Cannot attack <in [Marsh] tiles>",
+        
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>", 
+        "May travel on Water tiles without embarking <for [Indonesia]>", "Eliminates combat penalty for attacking across a coast <for [Indonesia]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Vegetation] tile> <for [Celts]>",
+        "[This Unit] gains [2] XP <upon ending a turn in a [Land] tile> <for [Zulu]> <in [Your] cities>", 
+        "[This Unit] heals [33] HP <upon ending a turn in a [Mountain] tile> <for [Tubo]>",
+        "Double movement in [Forest] <for [Vietnam]>",
+        "Double movement in [Jungle] <for [Vietnam]>",
+        ]    
+    },
+    {
+        "name": "Melee Water",
+        "movementType": "Water"
+        "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",   
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",  
+        ]                
+    },
+    {
+        "name": "Ranged Water",
+        "movementType": "Water"
+        "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",  
+        
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",                    
+        ]                
+    },
+    {
+        "name": "Submarine",
+        "movementType": "Water",
+        "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
+        
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",        
+        ]                
+    },
+    {
+        "name": "Water Carrier",
+        "movementType": "Water"
+        "uniques":[
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",        
+        ]                
+    },
+    {
+        "name": "Fighter",
+        "movementType": "Air"
+        "uniques": [
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>"
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",
+        "Aircraft"]
+    },
+    {
+        "name": "Bomber",
+        "movementType": "Air"   
+        "uniques": [
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",
+        "Aircraft"]   
+    },
+    {
+        "name": "Bomb",
+        "movementType": "Air",
+        "uniques": [
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>",
+        "Flybomb"]
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+        "uniques": [
+        "Unit will heal every turn, even if it performs an action <for [Cuba]>",
+        "Instantly provides [1] [Warfare Aversion Level] <upon being defeated>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [Macedonia]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        "Ignores Zone of Control <for [Poland]>",
+        "May enter foreign tiles without open borders <for [Poland]>", 
+        "Flybomb"]
+        
+    //判断类型
+    },
+    {
+        "name": "Melee",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged",
+        "movementType": "Land"
+    },
+    {
+        "name": "Armor",
+        "movementType": "Land"
+    },
+    {
+        "name": "WaterCivilian",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterMelee",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterRanged",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterSubmarine",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterAircraftCarrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "AtomicBomber",
+        "movementType": "Air"
+    }
+    // 英雄！
+    {
+        "name": "英雄",
+//        "movementType": "Air"移动类型:空中
+        "movementType": "Land"
+        "uniques": ["Invisible to non-adjacent units<in [Forest] tiles> <for [Major]>",
+        "Invisible to non-adjacent units<in [Jungle] tiles> <for [Major]>",
+        "Instantly consumes [2] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]>",
+        "Instantly provides [2] [Feat] <upon defeating a [Major] unit>",
+        "Instantly provides [1] [Feat] <upon defeating a [Barbarian] unit> <after adopting [Military Reclamation System]>",
+        "Instantly consumes [4] [Warfare Aversion Level] <upon being defeated>",//英雄人人皆可是！:英雄被打败后消除4厌战度
+        "Instantly consumes [1] [Warfare Aversion Level] <upon defeating a [Major] unit> <when above [0] [Warfare Aversion Level]> <for [民族联合]>",//英雄荣誉//击杀主要文明的单位时消除1厌战度
+        "Unit will heal every turn, even if it performs an action <for [民族联合]>",//英雄体魄:每回合结束时回复十点HP
+        "Ignores Zone of Control <for [民族联合]>",//疾步:忽略控制区域，贴边界和非己方军队时不消耗移动力
+        "May enter foreign tiles without open borders <for [民族联合]>",//潜伏:可以进入没开放边界的区域
+        "Heal this unit by [3] HP <upon ending a turn in a [Vegetation] tile> <for [民族联合]>",//自然之力:在植被地块结束回合时+3HP
+        "This Unit gains [1] XP <upon ending a turn in a [Land] tile> <for [民族联合]> <in [Your] cities>", //训练:在己方领土中，回合结束获得1XP
+        "[+26]% Strength <when below [26] HP>"//绝境逢生:HP低于26时，＋26%力
+         "Defense bonus when embarked"//海神赏赐的第九感:船运状态加防御
+         "Gain [3] [Culture] <(modified by game speed)>", //英雄登场！:＋3文化，随游戏速度更改
+         "Gain [7] [Faith] <(modified by game speed)>", //人民崇拜:＋7信仰，随游戏速度更改
+          "Prevents spreading of religion to the city it is next to",//英雄信仰:防止宗教传播到它旁边的城市
+          "Earn [50]% of killed [Military] unit's [Strength] as [Faith]<upon defeating a [Military] unit>"//人民崇拜2:击杀敌方单位时获得[50%]%的[军事]单位的[力量]作为[信仰]
+          "[+26]% Strength <when adjacent to a [英雄] unit>",//并肩作战:和英雄单位相邻时＋26%力
+//        "May travel on Water tiles without embarking <for [民族联合]>"//冲浪:跨海、登陆时可以不用转换形态
+
+//        "Eliminates combat penalty for attacking across a coast<for [民族联合]>"//消除跨海攻击的惩罚
+//"Eliminates combat penalty for attacking over a river"//消除跨河攻击的惩罚    
+ 
+ //        "Ranged attacks may be performed over obstacles"//远程攻击跨过故障。
+ //"[1] additional attacks per turn", //每回合额外攻击一次
+ //"Can move after attacking"//攻击后可移动
+ 
+ //"[+15]% Strength <when attacking> <when above [90] HP>"//当生命高于90＋15力
+ 
+
+ //"Transfer Movement to [Great General]"//将移动力转移给大将军
+ 
+ 
+ //"Gain [13] [Gold] <(modified by game speed)>", //＋13金钱，随游戏速度改变
+ 
+ //"Doing so will consume this opportunity to choose a Promotion"//这样做将消耗这个晋升
+ 
+
+//"Gain [200] [Gold] <(modified by game speed)> <upon being defeated>",//被打败后加200金钱
+
+//"Heal this unit by [33] HP<(modified by game speed)> <upon being promoted>//晋升后获得40金钱（随游戏速度改变）
+
+ //"No movement cost to pillage"//掠夺无需成本
+ 
+ 
+ //"Heals [15] damage if it kills a unit"//嗜血:击杀敌方单位时回复15HP
+ 
+ //"[+15]% Strength <when fighting in [Hill] tiles>"//在山丘地块战斗时＋15力
+ 
+ //"[-33]% Gold cost of upgrading"//升级所需金币－33%>
+ 
+ //"Free [Horseman] appears",//免费骑手出现
+ 
+ //"Turn this tile into a [Tundra] tile <once> <in [Your] cities> <in [Desert] tiles>",//在己方领土的沙漠地块时，可以把该地块变为冻土地块
+        "[+26]% Strength <during the [Ancient era]>",//在远古时代加百分之26的力
+		"[+88]% Strength <during the [Classical era]>",//古典
+		"[+177]% Strength <during the [Medieval era]>",//中古
+		"[+260]% Strength <during the [Renaissance era]>",//启蒙
+		"[+361]% Strength <during the [Industrial era]>",//工业
+		"[+444]% Strength <during the [Modern era]>",//现代
+		"[+520]% Strength <during the [Atomic era]>",//原子
+	    "[+631]% Strength <during the [Information era]>",//信息
+		"[+700]% Strength <during the [Future era]>",//未来
+//		"Aircraft"飞机
+//       "Flybomb"导弹
+	   ]
+    },
+]
