@@ -1,0 +1,27 @@
+[
+       {//初始信仰
+        "name": "止戈为武",
+        "type": "Pantheon",
+        "uniques": ["Earn [5]% of killed [Military] unit's [Strength] as [Science]"]
+      },
+       {
+        "name": "以战养战",
+        "type": "Pantheon",
+        "uniques": ["Earn [10]% of killed [Military] unit's [Strength] as [Gold]"]
+      },
+      {
+        "name": "战神·文化",
+        "type": "Pantheon",
+        "uniques": ["Earn [5]% of killed [Military] unit's [Strength] as [Culture]"]
+      },
+      {
+        "name": "圣战",
+        "type": "Pantheon",
+        "uniques": ["[+33]% Strength decreasing with distance from the capital"]
+      },
+         {
+        "name": "修行",
+        "type": "Pantheon",
+        "uniques": ["[Military] units gain the [修行] promotion"]
+      },
+]

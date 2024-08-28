@@ -1,0 +1,831 @@
+[
+{
+	  "name": "毒弓",
+	  "uniques": ["[+37]% Strength <vs [Wounded] units>",
+	  "Withdraws before melee combat <with [48]% chance>",
+	  "[1] additional attacks per turn<with [15]% chance>"
+	  ]
+	},
+{
+	  "name": "迷踪",
+	  "uniques": [
+		"Turn this tile into a [Mountain] tile<[1] times><for [0] movement><if it hasn't used other actions yet>",
+		"[-1] Sight bonus for enemy [Military] units within [3] tiles",
+		"Can pass through impassable tiles"
+	  ]
+	},
+	{
+	  "name": "宫影",
+	  "uniques": [
+		"Turn this tile into a [Hill] tile<[1] times><for [0] movement><if it hasn't used other actions yet>"
+	  ]
+	},
+      {
+      "name": "空军",
+	  "uniques": [
+	  "[1] additional attacks per turn<with [20]% chance>", 
+	  "Withdraws before melee combat <with [20]% chance>"
+	  "[+10]% Strength<with [95]% chance>",
+	  "[-10]% Strength<with [90]% chance>",
+	  "[+20]% Strength<with [85]% chance>",
+	  "[-20]% Strength<with [80]% chance>",
+	  "[+30]% Strength<with [75]% chance>",
+	  "[-30]% Strength<with [70]% chance>",
+	  "[+40]% Strength<with [65]% chance>",
+	  "[-40]% Strength<with [60]% chance>",
+	  "[+50]% Strength<with [55]% chance>",
+	  "[-50]% Strength<with [50]% chance>",
+	  "[+60]% Strength<with [45]% chance>",
+	  "[-60]% Strength<with [40]% chance>",
+	  "[+70]% Strength<with [35]% chance>",
+	  "[-70]% Strength<with [30]% chance>",
+	  "[+80]% Strength<with [25]% chance>",
+	  "[-80]% Strength<with [20]% chance>",
+	  "[+90]% Strength<with [15]% chance>",
+	  "[-90]% Strength<with [10]% chance>",
+	  "[+100]% Strength<with [5]% chance>",
+	  "[-100]% Strength<with [1]% chance>",
+	  "Earn [100]% of killed [Military] unit's [Strength] as [Science]<with [1]% chance>",
+	  "Earn [100]% of killed [Military] unit's [Strength] as [Faith]<with [1]% chance>",
+	  "Earn [100]% of killed [Military] unit's [Strength] as [Culture]<with [1]% chance>",
+	  "Earn [100]% of killed [Military] unit's [Strength] as [Gold]<with [1]% chance>",
+	  "[+1] population in a random city<upon defeating a [Military] unit><with [1]% chance>"
+	  ],
+    },
+    /*{
+      "name": "空军2号",
+	  "uniques": [
+	    "Earn [1]% of killed [Military] unit's [Strength] as [Science]<with [95]% chance>",
+	  "Earn [2]% of killed [Military] unit's [Strength] as [Science]<with [90]% chance>",
+	  "Earn [3]% of killed [Military] unit's [Strength] as [Science]<with [85]% chance>",
+	  "Earn [4]% of killed [Military] unit's [Strength] as [Science]<with [80]% chance>",
+	  "Earn [5]% of killed [Military] unit's [Strength] as [Science]<with [75]% chance>",
+	  "Earn [6]% of killed [Military] unit's [Strength] as [Science]<with [70]% chance>",
+	  "Earn [7]% of killed [Military] unit's [Strength] as [Science]<with [65]% chance>",
+	  "Earn [8]% of killed [Military] unit's [Strength] as [Science]<with [60]% chance>",
+	  "Earn [9]% of killed [Military] unit's [Strength] as [Science]<with [55]% chance>",
+	  "Earn [10]% of killed [Military] unit's [Strength] as [Science]<with [50]% chance>",
+	  "Earn [20]% of killed [Military] unit's [Strength] as [Science]<with [45]% chance>",
+	  "Earn [30]% of killed [Military] unit's [Strength] as [Science]<with [30]% chance>",
+	  "Earn [40]% of killed [Military] unit's [Strength] as [Science]<with [25]% chance>",
+	  "Earn [50]% of killed [Military] unit's [Strength] as [Science]<with [20]% chance>",
+	  "Earn [60]% of killed [Military] unit's [Strength] as [Science]<with [15]% chance>",
+	  "Earn [70]% of killed [Military] unit's [Strength] as [Science]<with [10]% chance>",
+	  "Earn [80]% of killed [Military] unit's [Strength] as [Science]<with [5]% chance>",
+	  "Earn [90]% of killed [Military] unit's [Strength] as [Science]<with [3]% chance>",
+	  "Earn [100]% of killed [Military] unit's [Strength] as [Science]<with [1]% chance>"
+	  ],
+    },
+        {
+      "name": "空军3号",
+	  "uniques": [
+	    "Earn [1]% of killed [Military] unit's [Strength] as [Gold]<with [95]% chance>",
+	  "Earn [2]% of killed [Military] unit's [Strength] as [Gold]<with [90]% chance>",
+	  "Earn [3]% of killed [Military] unit's [Strength] as [Gold]<with [85]% chance>",
+	  "Earn [4]% of killed [Military] unit's [Strength] as [Gold]<with [80]% chance>",
+	  "Earn [5]% of killed [Military] unit's [Strength] as [Gold]<with [75]% chance>",
+	  "Earn [6]% of killed [Military] unit's [Strength] as [Gold]<with [70]% chance>",
+	  "Earn [7]% of killed [Military] unit's [Strength] as [Gold]<with [65]% chance>",
+	  "Earn [8]% of killed [Military] unit's [Strength] as [Gold]<with [60]% chance>",
+	  "Earn [9]% of killed [Military] unit's [Strength] as [Gold]<with [55]% chance>",
+	  "Earn [10]% of killed [Military] unit's [Strength] as [Gold]<with [50]% chance>",
+	  "Earn [20]% of killed [Military] unit's [Strength] as [Gold]<with [45]% chance>",
+	  "Earn [30]% of killed [Military] unit's [Strength] as [Gold]<with [30]% chance>",
+	  "Earn [40]% of killed [Military] unit's [Strength] as [Gold]<with [25]% chance>",
+	  "Earn [50]% of killed [Military] unit's [Strength] as [Gold]<with [20]% chance>",
+	  "Earn [60]% of killed [Military] unit's [Strength] as [Gold]<with [15]% chance>",
+	  "Earn [70]% of killed [Military] unit's [Strength] as [Gold]<with [10]% chance>",
+	  "Earn [80]% of killed [Military] unit's [Strength] as [Gold]<with [5]% chance>",
+	  "Earn [90]% of killed [Military] unit's [Strength] as [Gold]<with [3]% chance>",
+	  "Earn [100]% of killed [Military] unit's [Strength] as [Gold]<with [1]% chance>"
+	  ],
+    },
+    {"name": "剑气长城",
+	  "uniques": [
+	    "Can instantly construct a [剑气长城] improvement <[1] times>",
+		"Only available <for [剑来]>"
+	  ]
+    },*/
+      {
+      "name": "遇事不决，可问出风",
+	  "uniques": [
+	  "[+50]% XP gained from combat",
+	  "Heal this unit by [20] HP<for [0] movement><[1] times>",
+	    "Withdraws before melee combat <with [10]% chance>",
+	  "Instantly provides [2] [灵气]<upon ending a turn in a [All] tile>",
+        "This Unit gains the [搬山] promotion <upon defeating a [Military] unit>"
+	  ],
+    },
+      {
+      "name": "搬山",
+	  "uniques": [
+	  "Can instantly construct a [Hill] improvement <[1] times>",
+	  	"[+8]% Strength <when defending>",
+	  "Instantly provides [1] [灵气]",
+        "This Unit gains the [倒海] promotion <upon defeating a [Military] unit>"
+	  ],
+    },
+    {
+      "name": "倒海",
+	  "uniques": [
+	  "May attack when embarked",
+	  "Instantly provides [1] [灵气]",
+	  "[+30]% Strength <for [Military] units> <within [2] tiles of a [Coast]>",
+	  "[+30]% Strength <for [Military] units> <within [2] tiles of a [Ocean]>",
+        "This Unit gains the [降妖] promotion <upon defeating a [Military] unit>"
+	  ],
+    },
+    {
+      "name": "降妖",
+	  "uniques": [
+	  "[+20]% Strength",
+  		"[This Unit] gains the [除妖] status for [3] turn(s)<upon defeating a [Military] unit>",
+	  "Instantly provides [1] [灵气]",
+        "This Unit gains the [镇魔] promotion <upon defeating a [Military] unit>"
+	  ],
+    },
+    {
+      "name": "除妖",
+	  "uniques": [
+	    "[+10]% Strength",
+	    "[+10]% Strength <when defending>"
+	  ],
+    },
+        {
+      "name": "镇魔",
+	  "uniques": [
+	  	"[+30]% Strength bonus for [Military] units within [1] tiles",
+	  	"[+25]% Strength bonus for [Military] units within [2] tiles",
+	  	"[+15]% Strength bonus for [Military] units within [3] tiles",
+	  	"[+10]% Strength bonus for [Military] units within [4] tiles",
+	  "Instantly provides [1] [灵气]",
+        "This Unit gains the [敕神] promotion <upon defeating a [Military] unit>"
+	  ],
+    },
+    {
+      "name": "敕神",
+	  "uniques": [
+	  	"Unbuildable", 
+	  	"Can move after attacking",
+	  "Instantly provides [1] [灵气]",
+        "This Unit gains the [摘星] promotion <upon defeating a [Military] unit>"
+	  ],
+    },
+    {
+      "name": "摘星",
+	  "uniques": [
+	  "[+3] Range",
+	  "Instantly provides [1] [灵气]",
+        "This Unit gains the [断江] promotion <upon defeating a [Military] unit>"
+	  ],
+    },
+    {
+      "name": "断江",
+	  "uniques": [
+	   "[+10]% Strength <for [Military] units> <within [2] tiles of a [Ocean]>",
+	   "[+10]% Strength <for [Military] units> <within [2] tiles of a [Coast]>",
+	   "Eliminates combat penalty for attacking over a river",
+	  "Instantly provides [1] [灵气]",
+        "This Unit gains the [摧城] promotion <upon defeating a [Military] unit>"
+	  ],
+    },
+        {
+      "name": "摧城",
+	  "uniques": [
+	  "[+100]% Strength <vs cities>",
+	  "Instantly provides [1] [灵气]",
+        "This Unit gains the [开天] promotion <upon defeating a [Military] unit>"
+	  ],
+    },
+    {
+      "name": "开天",
+	  "uniques": [
+	  "[+100]% Strength",
+	  "Instantly provides [1] [灵气]"
+	  ],
+    },
+    {"name": "入魔",
+	  "uniques": [
+	  "Instantly consumes [1] [灵气] <upon defeating a [All] unit>"
+	  ],
+        },
+        {
+        "name": "修行",
+	  "uniques": ["Heal this unit by [50] HP"
+	  ],
+	  	"unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 1
+    },
+        {"name": "修仙",
+        "prerequisites": ["修行"],
+	  "uniques": ["Only available <for units without [武道]>",
+	  "[+30]% XP gained from combat",
+	  "Instantly provides [2] [灵气] <upon defeating a [Major] unit>"
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber",],
+        "row": 10,
+        "column": 2
+    },
+    {"name": "铜皮",
+        "prerequisites": ["修仙"],
+	  "uniques": [
+	  "No damage penalty for wounded units <for [All] units>"
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 3
+    },
+     {"name": "草根",
+        "prerequisites": ["铜皮"],
+	  "uniques": [
+	  "Heal this unit by [7] HP<upon turn end>"
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 4
+    },
+         {"name": "柳筋",
+        "prerequisites": ["草根"],
+	  "uniques": [
+	  	"[+8]% Strength <when defending>"
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 5
+    },     {"name": "骨气",
+        "prerequisites": ["柳筋"],
+	  "uniques": [
+	  	"[+8]% Strength"
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 6
+    },
+         {"name": "铸炉",
+        "prerequisites": ["骨气"],
+	  "uniques": [
+	  "[+40]% XP gained from combat"
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 7
+    },
+         {"name": "洞府境",
+        "prerequisites": ["铸炉"],
+	  "uniques": [
+	  "This Unit gains [1] XP<upon ending a turn in a [All] tile>"
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 8
+    },
+    {"name": "观海境",
+        "prerequisites": ["洞府境"],
+	  "uniques": [
+	  "Unit will heal every turn, even if it performs an action"
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 9
+    },
+    {"name": "龙门境",
+        "prerequisites": ["观海境"],
+	  "uniques": [
+	  "Heal this unit by [20] HP<for [0] movement><[1] times>",
+	  "Can instantly construct a [Hill] improvement <[1] times>",
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 10
+    },
+        {"name": "金丹境",
+        "prerequisites": ["龙门境"],
+	  "uniques": [
+	  "Heal this unit by [30] HP<for [0] movement><[2] times>",
+	  "[+9]% Strength <when defending>"
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 11
+    },
+     {"name": "元婴境",
+        "prerequisites": ["金丹境"],
+	  "uniques": [
+	  "Free [魂魄] appear <upon being defeated>",
+	  	"[+9]% Strength"
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 12
+    },
+         {"name": "玉璞境",
+        "prerequisites": ["元婴境"],
+	  "uniques": [
+	  "May attack when embarked",
+	  "[+12]% Strength <when defending>",
+	  "Can move after attacking"
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 13
+    },
+             {"name": "仙人境",
+        "prerequisites": ["玉璞境"],
+	  "uniques": [
+	  "[+2] Sight",
+	  "[+2] Movement",
+	  "[+2] Range"
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 14
+    },
+    {"name": "飞升境",
+        "prerequisites": ["仙人境"],
+	  "uniques": [
+	  "[-13]% Strength for enemy [Military] units in adjacent [All] tiles",
+	  "This Unit gains the [自爆] promotion <once> <for [0] movement>"
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 15
+    },
+    {
+    "name": "自爆",
+    "uniques": [
+            "[+200]% Strength <for [1] turns>",
+     "Self-destructs when attacking",
+     "Damage is ignored when determining unit Strength <for [1] turns>",
+    ]
+  },
+      {"name": "失传一境",
+        "prerequisites": ["飞升境"],
+	  "uniques": [
+	  "[1] additional attacks per turn",
+	  "Withdraws before melee combat <with [50]% chance>"
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 16
+    },
+          {"name": "失传二境",
+        "prerequisites": ["失传一境"],
+	  "uniques": [
+	  "May capture killed [All] units",
+	    "[1] additional attacks per turn"
+	  //"Only available <for units without [武道]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 10,
+        "column": 17
+    },
+            {"name": "武道",
+        "prerequisites": ["修行"],
+	  "uniques": ["Only available <for units without [修仙]>",
+	  "[+50]% XP gained from combat",
+	  "Instantly provides [2] [灵气] <upon defeating a [Major] unit>"
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 11,
+        "column": 2
+    },
+      {"name": "泥胚境",
+        "prerequisites": ["武道"],
+	  "uniques": [
+	  	"[+8]% Strength"
+	  //"Only available <for units without [修仙]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 11,
+        "column": 3
+    },
+        {"name": "木胎境",
+        "prerequisites": ["泥胚境"],
+	  "uniques": [
+	  	"[+10]% Strength"
+	  //"Only available <for units without [修仙]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 11,
+        "column": 4
+    },
+            {"name": "水银境",
+        "prerequisites": ["木胎境"],
+	  "uniques": [
+	  	"[+12]% Strength"
+	  //"Only available <for units without [修仙]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 11,
+        "column": 5
+    },
+    {"name": "英雄境",
+        "prerequisites": ["水银境"],
+	  "uniques": [
+	  	  "[+20]% XP gained from combat",
+	  	  "This Unit gains [1] XP<upon ending a turn in a [All] tile>"
+	  //"Only available <for units without [修仙]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 11,
+        "column": 6
+    },
+        {"name": "雄魄境",
+        "prerequisites": ["英雄境"],
+	  "uniques": [
+	  	  "[+30]% XP gained from combat",
+	  	  "This Unit gains [2] XP<upon ending a turn in a [All] tile>"
+	  //"Only available <for units without [修仙]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 11,
+        "column": 7
+    },
+        {"name": "武胆境",
+        "prerequisites": ["雄魄境"],
+	  "uniques": [
+	  	  "[+50]% XP gained from combat",
+	  	  "This Unit gains [3] XP<upon ending a turn in a [All] tile>"
+	  //"Only available <for units without [修仙]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 11,
+        "column": 8
+    },
+        {"name": "金身境",
+        "prerequisites": ["武胆境"],
+	  "uniques": [
+	  	"[+12]% Strength",
+	  	"[+12]% Strength <when defending>"
+	  //"Only available <for units without [修仙]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 11,
+        "column": 9
+    },
+        {"name": "羽化境",
+        "prerequisites": ["金身境"],
+	  "uniques": [
+	  "[+1] Sight",
+	  "[+3] Movement",
+	  "[1] additional attacks per turn"
+	  //"Only available <for units without [修仙]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 11,
+        "column": 10
+    },
+      {"name": "山巅境",
+        "prerequisites": ["羽化境"],
+	  "uniques": [
+	  "[+20]% Strength",
+	  "Unit will heal every turn, even if it performs an action",
+		"[+10] HP when healing"
+	  //"Only available <for units without [修仙]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 11,
+        "column": 11
+    },
+     {"name": "止境",
+        "prerequisites": ["山巅境"],
+	  "uniques": [
+	    "[+23]% Strength",
+	      "Can move after attacking"
+	  //"Only available <for units without [修仙]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 11,
+        "column": 13
+    },
+         {"name": "武神境",
+        "prerequisites": ["止境"],
+	  "uniques": [
+	      "[2] additional attacks per turn",
+	      "[-20]% Strength for enemy [Military] units in adjacent [All] tiles"
+	  //"Only available <for units without [修仙]>",
+	  ],
+	  "unitTypes": ["Civilian","Sword","Gunpowder","Archery","Ranged Gunpowder","Scout","Mounted","Armored","Siege","Civilian Water","Melee Water","Ranged Water","Submarine","Aircraft Carrier","Fighter","Bomber","Atomic Bomber","Missile","Helicopter","Melee","Ranged","Armor","WaterCivilian","WaterMelee","WaterRanged","WaterSubmarine","WaterAircraftCarrier","AtomicBomber"],
+        "row": 11,
+        "column": 14
+    },
+    {"name": "收买",
+	  "uniques": [
+	    "Earn [+5]% of killed [Military] unit's [Cost] as [Gold]",
+	    "When defeating a [All] unit, earn [-100] Gold and recruit it <with [10]% chance>",
+	    //"When defeating a [{All} {Military}] unit, earn [-100] Gold and recruit it <with [10]% chance>",
+		"Only available <for [黄金国]>"
+	  ]
+    },
+	{
+	  "name": "全抗",
+	  "uniques": [
+		"[+80]% Strength <vs [Armored] units>",
+		"[+80]% Strength <vs [Helicopter] units>",
+		"[+100]% Strength <vs [Fighter] units>",
+		"[+60]% Strength <vs [龙] units>",
+		"[+80]% Strength <vs [Gunpowder] units>",
+		"[+100]% Strength <vs [Bomber] units>",
+		"[+80]% Strength <vs [Aircraft Carrier] units>",
+		"[+80]% Strength <vs [Siege] units>",
+		"[+80]% Strength <vs [Ranged Gunpowder] units>",
+		"[+80]% Strength <vs [Melee Water] units>",
+		"[+80]% Strength <vs [Ranged Water] units>",
+		"[-30]% Strength for enemy [Military] units in adjacent [All] tiles",
+		"Can carry [5] [Missile] units",
+		"Can carry [3] [Gunpowder] units",
+		"Withdraws before melee combat <with [90]% chance>",
+		"[3] additional attacks per turn"
+	  ]
+	},
+	{
+	  "name": "云端",
+	  "uniques": [
+		"[+100]% Strength <vs [Armored] units>",
+		"Can carry [3] [Missile] units"
+	  ]
+	},
+	{
+	  "name": "海员",
+	  "prerequisites": ["海防"],
+	  "uniques": [
+		"May attack when embarked",
+		//"[+100]% Strength <for [Military] units> <within [3] tiles of a [Coast]>",
+		//"[+100]% Strength <for [Military] units> <within [3] tiles of a [Ocean]>"
+	  ],
+	  "unitTypes": [
+		"Sword",
+		"Gunpowder",
+		"Mounted",
+		"Siege",
+		"Archery",
+		"Ranged Gunpowder",
+		"Armored"
+	  ],
+	  "column": 8,
+	  "row": 6
+	},
+	{
+		"name": "海防",
+		"prerequisites": ["Amphibious"],
+		"uniques": ["[+30]% Strength <for [Military] units> <within [2] tiles of a [Coast]>",],
+		"unitTypes": [
+		"Sword",
+		"Gunpowder",
+		"Mounted",
+		"Siege",
+		"Archery",
+		"Ranged Gunpowder",
+		"Armored"],
+        "column": 7,
+        "row": 6
+	},
+	{
+		"name": "Amphibious",
+		"prerequisites": ["Shock I", "Drill I"],
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
+		"unitTypes": ["Sword","Gunpowder"],
+        "column": 6,
+        "row": 6
+	},
+	{
+	  "name": "弑龙者",
+	  "uniques": [
+		"[Military] units gain the [弑龙者-I] promotion <upon defeating a [龙] unit>"
+	  ],
+	  "unitTypes": [
+		"Sword",
+		"Gunpowder",
+		"Mounted",
+		"Scout",
+		"Siege",
+		"Archery",
+		"Ranged Gunpowder",
+		"Armored",
+		"Melee Water",
+		"Ranged Water",
+		"Submarine"
+	  ]
+	},
+	{
+	  "name": "弑龙者-I",
+	  "uniques": [
+		"This Unit gains the [弑龙者-II] promotion <upon defeating a [龙] unit>",
+		"[+30]% Strength <vs [龙] units>"
+	  ]
+	},
+	{
+	  "name": "弑龙者-II",
+	  "uniques": [
+		"This Unit gains the [弑龙者-III] promotion <upon defeating a [龙] unit>",
+		"[+30]% Strength <vs [龙] units>"
+	  ]
+	},
+	{
+	  "name": "弑龙者-III",
+	  "uniques": [
+		"This Unit gains the [弑龙者-IV] promotion <upon defeating a [龙] unit>",
+		"[+30]% Strength <vs [龙] units>"
+	  ]
+	},
+	{
+	  "name": "弑龙者-IV",
+	  "uniques": [
+		"This Unit gains the [弑龙者-V] promotion <upon defeating a [龙] unit>",
+		"[+30]% Strength <vs [龙] units>"
+	  ]
+	},
+	{
+	  "name": "弑龙者-V",
+	  "uniques": [
+		"This Unit gains the [弑龙者-VI] promotion <upon defeating a [龙] unit>",
+		"[+30]% Strength <vs [龙] units>"
+	  ]
+	},
+	{
+	  "name": "弑龙者-VI",
+	  "uniques": [
+		"[+30]% Strength <vs [龙] units>"
+	  ]
+	},
+	{
+	  "name": "龙奴",
+	  "uniques": [
+		"[+1] population in a random city<upon defeating a [Military] unit>",
+		"Earn [200]% of killed [Military] unit's [Strength] as [Science]"
+	  ],
+	  "column": 1000,
+	  "row": 1000
+	},
+	{
+	  "name": "贪欲",
+	  "uniques": [
+		"Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
+		"[-20]% Strength <vs [Ranged] units>",
+		"Unable to pillage tiles"
+	  ],
+	  "column": 1001,
+	  "row": 1001
+	},
+	{
+	  "name": "甲鳞",
+	  "uniques": [
+		"[+15]% Strength <when defending>",
+		"No defensive terrain penalty"
+	  ],
+	  "column": 1002,
+	  "row": 1002
+	},
+	{
+	  "name": "龙焰",
+	  "uniques": [
+		"[+10]% Strength <vs [Wounded] units>",
+		"Ranged attacks may be performed over obstacles"
+	  ],
+	  "column": 1003,
+	  "row": 1003
+	},
+	{
+	  "name": "威压",
+	  "uniques": [
+		"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+		"[+1] Sight"
+	  ],
+	  "column": 1004,
+	  "row": 1004
+	},
+	{
+	  "name": "诛杀",
+	  "uniques": [
+		"[1] additional attacks per turn",
+		"[+20]% Strength <vs cities>",
+		"Earn [33]% of the damage done to [City] units as [Gold]"
+	  ],
+	  "column": 1005,
+	  "row": 1005
+	},
+	{
+	  "name": "不死",
+	  "uniques": [
+		"Unit will heal every turn, even if it performs an action",
+		"[+10] HP when healing",
+		"No damage penalty for wounded units"
+	  ],
+	  "column": 1006,
+	  "row": 1006
+	},
+	{
+	  "name": "Heal Instantly",
+	  "uniques": [
+		"Heal this unit by [50] HP",
+		"Doing so will consume this opportunity to choose a Promotion"
+	  ],
+	  "unitTypes": [
+		"Sword",
+		"Gunpowder",
+		"Mounted",
+		"Scout",
+		"Siege",
+		"Archery",
+		"Ranged Gunpowder",
+		"Armored",
+		"Melee Water",
+		"Ranged Water",
+		"Submarine",
+		"龙"
+	  ],
+	  "row": 0,
+	  "column": 0
+	},
+	{
+	  "name": "治愈涟渏",
+	  "uniques": [
+	  "Heal this unit by [10] HP<when fighting in [Ocean] tiles> <upon turn end>",
+	  "Heal this unit by [10] HP<when fighting in [Coast] tiles> <upon turn end>",
+	  ]
+	},
+	{
+	  "name": "造海",
+	  "uniques": [
+		"Turn this tile into a [Ocean] tile<[1] times><for [0] movement><if it hasn't used other actions yet>"
+	  ]
+	},
+	{
+	  "name": "唤潮",
+	  "uniques": [
+		"Turn this tile into a [Coast] tile<[1] times><for [0] movement><if it hasn't used other actions yet>"
+	  ]
+	},
+	{
+	  "name": "退潮",
+	  "uniques": [
+		"Turn this tile into a [Plains] tile<[2] times><for [0] movement><if it hasn't used other actions yet>"
+	  ]
+	},
+	{
+	  "name": "辉煌时代",
+	  "uniques": [
+		"[+15]% Strength <for [All] units> <during a Golden Age>",
+		"[+30]% Strength <vs cities> <when attacking><during a Golden Age>"
+	  ]
+	},
+	{
+	  "name": "无敌",
+	  "uniques": [
+	  //"[+15]% Strength bonus for [Military] units within [2] tiles",
+	  "[+30]% Strength <when adjacent to a [Military] unit> <when attacking>"
+	      //"[+10]% Strength <during the [All] tiles>"
+		//"[-30]% Strength for enemy [Military] units in adjacent [All] tiles",
+		 "This Unit gains [2] XP<upon ending a turn in a [All] tile>",
+		"Only available <for [完美国度]>"
+	  ]
+	},
+	{
+	  "name": "真·无敌",
+	  "uniques": [
+		"[-99]% Strength for enemy [Military] units in adjacent [All] tiles",
+		"Only available <for [完美国度]>"
+	  ]
+	},
+	{
+	  "name": "吸收",
+	  "uniques": [
+		 "This Unit gains [2] XP<upon ending a turn in a [All] tile>"
+	  ]
+	},
+	{
+	  "name": "修仙者",
+	  "uniques": [
+		  "[+10]% Strength"
+	  ]
+	},
+	{
+	  "name": "灵慧",
+	  "uniques": [
+		  "[-20]% Strength",
+		  "Earn [6]% of killed [Military] unit's [Strength] as [Science]"
+	  ]
+	},
+	{
+	  "name": "智慧",
+	  "uniques": [
+		  "This Unit gains [1] XP<upon ending a turn in a [All] tile>",
+		  "Earn [6]% of killed [Military] unit's [Strength] as [Science]"
+	  ]
+	}
+]

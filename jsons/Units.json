@@ -1,0 +1,955 @@
+[
+{
+		"name": "毒弓手",
+		"unitType": "Archery",
+		"uniqueTo": "SP印加",
+		"replaces": "Archer",
+		"movement": 2,
+		"range": 3,
+		"strength": 4,
+		"rangedStrength": 8,
+		"cost": 50,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"promotions": [
+		"毒弓"
+	  ]
+		"attackSound": "arrow"
+	},
+{
+		"name": "一条狗",
+		"unitType": "Sword",
+		"uniqueTo": "完美国度",
+		"movement": 2,
+		"strength": 1,
+		"cost": 40,
+		"promotions": [
+		"真·无敌"
+	  ],
+		"attackSound": "metalhit"
+	},
+        {
+		"name": "钓鱼佬",
+		"unitType": "Civilian",
+		"uniqueTo": "空军",
+		"replaces": "Great General",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+10]% Strength bonus for [Military] units within [3] tiles<with [95]% chance>",
+            "[-10]% Strength bonus for [Military] units within [3] tiles<with [90]% chance>",
+            "[+20]% Strength bonus for [Military] units within [3] tiles<with [85]% chance>",
+            "[-20]% Strength bonus for [Military] units within [3] tiles<with [80]% chance>",
+            "[+30]% Strength bonus for [Military] units within [3] tiles<with [75]% chance>",
+            "[-30]% Strength bonus for [Military] units within [3] tiles<with [70]% chance>",
+            "[+40]% Strength bonus for [Military] units within [3] tiles<with [65]% chance>",
+            "[-40]% Strength bonus for [Military] units within [3] tiles<with [60]% chance>",
+            "[+50]% Strength bonus for [Military] units within [3] tiles<with [55]% chance>",
+            "[-50]% Strength bonus for [Military] units within [3] tiles<with [50]% chance>",
+            "[+60]% Strength bonus for [Military] units within [3] tiles<with [45]% chance>",
+            "[-60]% Strength bonus for [Military] units within [3] tiles<with [40]% chance>",
+            "[+70]% Strength bonus for [Military] units within [3] tiles<with [35]% chance>",
+            "[-70]% Strength bonus for [Military] units within [3] tiles<with [30]% chance>",
+            "[+80]% Strength bonus for [Military] units within [3] tiles<with [25]% chance>",
+            "[-80]% Strength bonus for [Military] units within [3] tiles<with [20]% chance>",
+            "[+90]% Strength bonus for [Military] units within [3] tiles<with [15]% chance>",
+            "[-90]% Strength bonus for [Military] units within [3] tiles<with [10]% chance>",
+            "[+100]% Strength bonus for [Military] units within [3] tiles<with [5]% chance>",
+            "[-100]% Strength bonus for [Military] units within [3] tiles<with [1]% chance>",
+			"Can be earned through combat",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+    	{
+		"name": "女巫",
+		"unitType": "Civilian",
+		"uniqueTo": "完美国度",
+		"replaces": "Great General",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[-30]% Strength bonus for [Military] units within [1] tiles",
+            "[-20]% Strength bonus for [Military] units within [2] tiles",
+            "[-10]% Strength bonus for [Military] units within [3] tiles",
+            "[-5]% Strength bonus for [Military] units within [4] tiles"
+            "[-1]% Strength bonus for [Military] units within [5] tiles"
+            //"[-30]% Strength for enemy [Military] units in adjacent [All] tiles",
+            //"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+    {
+	  "name": "陈平安",
+	  "unitType": "Sword",
+	  "uniqueTo": "剑来",
+	  "strength": 8,
+	  "movement": 2,
+	  "cost": 0,
+	  "uniques": [
+		"Unbuildable", 
+		"[+50]% Strength <during the [Classical era]>",
+		"[+100]% Strength <during the [Medieval era]>",
+		"[+150]% Strength <during the [Renaissance era]>",
+		"[+300]% Strength <during the [Industrial era]>",
+		"[+500]% Strength <during the [Modern era]>",
+		"[+650]% Strength <during the [Atomic era]>",
+		"[+1000]% Strength <during the [Information era]>",
+		"Great Person - [War]",
+		"Uncapturable"
+	  ],
+	  "promotions": [
+		"修仙",
+		"武道",
+		"遇事不决，可问出风"
+	  ]
+	},
+    {
+	  "name": "魂魄",
+	  "unitType": "Sword",
+	  "strength": 1,
+	  "movement": 3,
+	  "cost": 0,
+	  "uniques": [
+		"Unbuildable", 
+		"Uncapturable",
+		"Invisible to non-adjacent units",
+		"Can transform to [Warrior]",
+		"Can transform to [Spearman]",
+		"Can transform to [Archer]",
+		"Can transform to [木盾]",
+	  ],
+	  "promotions": [
+		"修行",
+		"修仙",
+		"铜皮",
+		"草根",
+		"柳筋",
+		"骨气",
+		"铸炉",
+		"洞府境",
+		"观海境"
+	  ]
+	},
+    {
+		"name": "木盾",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 6,
+		"cost": 15,
+		"obsoleteTech": "Bronze Working",//过时
+		"upgradesTo": "青铜盾",//升级
+		"uniques": ["[+50]% Strength <when defending>",
+		"[-30]% Strength <vs [Archery] units>",
+		"[-100]% Strength <vs [Ranged Gunpowder] units>",
+		"[-40]% Strength <vs [Mounted] units>",
+		"[-100]% Strength <vs [Gunpowder] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "青铜盾",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Iron Working",//过时
+		"upgradesTo": "铁盾",//升级
+		"uniques": ["[+100]% Strength <when defending>",
+		"[-20]% Strength <vs [Archery] units>",
+		"[-100]% Strength <vs [Ranged Gunpowder] units>",
+		"[-35]% Strength <vs [Mounted] units>",
+		"[-100]% Strength <vs [Gunpowder] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "铁盾",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 60,
+		"requiredTech": "Iron Working",
+		"requiredResource": "Iron",
+		"obsoleteTech": "Steel",//过时
+		"upgradesTo": "重甲盾",//升级
+		"uniques": ["[+150]% Strength <when defending>",
+		"[-10]% Strength <vs [Archery] units>",
+		"[-100]% Strength <vs [Ranged Gunpowder] units>",
+		"[-30]% Strength <vs [Mounted] units>",
+		"[-100]% Strength <vs [Gunpowder] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "重甲盾",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 110,
+		"requiredTech": "Steel",
+		"requiredResource": "Iron",
+		"uniques": ["[+200]% Strength <when defending>",
+		"[-5]% Strength <vs [Archery] units>",
+		"[-100]% Strength <vs [Ranged Gunpowder] units>",
+		"[-25]% Strength <vs [Mounted] units>",
+		"[-100]% Strength <vs [Gunpowder] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+	  "name": "息灵工人",
+	  "unitType": "Civilian",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Worker",
+	  "movement": 2,
+	  "cost": 0,
+	  "uniques": [
+		"Can build [Land] improvements on tiles",
+		"Automation is a primary action",
+		//"[+1] Movement <in [Forest] tiles>",
+		"Double movement in [Forest]",
+		"Double movement in [Jungle]",
+		"Requires at least [3] population",
+		"[-2] population [in this city]",
+		"[-15]% construction time for [All] improvements"
+	  ]
+	},
+	{
+	  "name": "息灵移民",
+	  "unitType": "Civilian",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Settler",
+	  "movement": 3,
+	  "cost": 0,
+	  "uniques": [
+		"Founds a new city <by consuming this unit>",
+		"Requires at least [6] population",
+		"[-5] population [in this city]",
+		//"[+1] Movement <in [Forest] tiles>"
+		"Double movement in [Forest]",
+		"Double movement in [Jungle]"
+	  ]
+	},
+	{
+	  "name": "参天树人",
+	  "unitType": "Siege",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Catapult",
+	  "movement": 1,
+	  "strength": 10,
+	  "cost": 0,
+	  "requiredTech": "Mathematics",
+	  "upgradesTo": "遮天树人",
+	  "obsoleteTech": "Physics",
+	  "uniques": [
+		"Requires at least [6] population",
+		"[-5] population [in this city]",
+		"[+500]% Strength <vs cities> <when attacking>",
+		//"[+1500]% Strength <during the [Ancient era]>",
+		//"[+750]% Strength <during the [Classical era]>",
+		//"[+325]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+		//"[+1] Movement <in [Forest] tiles>",
+		"Double movement in [Forest]",
+		"Double movement in [Jungle]",
+		"Unable to capture cities",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "attackSound": "cannon"
+	},
+		{
+	  "name": "遮天树人",
+	  "unitType": "Siege",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Trebuchet",
+	  "movement": 2,
+	  "strength": 9,
+	  "cost": 0,
+	  "requiredTech": "Physics",//需要
+	  "upgradesTo": "大树人",//升级
+	  "obsoleteTech": "Chemistry",//过时
+	  "uniques": [
+		"Requires at least [4] population",
+		"[-3] population [in this city]",
+		"[+300]% Strength <vs cities> <when attacking>",
+		//"[+1500]% Strength <during the [Ancient era]>",
+		//"[+750]% Strength <during the [Classical era]>",
+		//"[+325]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+		//"[+1] Movement <in [Forest] tiles>",
+		"Double movement in [Forest]",
+		"Double movement in [Jungle]",
+		"Unable to capture cities",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "attackSound": "cannon"
+	},
+	{
+	  "name": "大树人",
+	  "unitType": "Siege",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Cannon",
+	  "movement": 3,
+	  "strength": 8,
+	  "cost": 0,
+	  "requiredTech": "Chemistry",//需要
+	  "upgradesTo": "Artillery",//升级
+	  "obsoleteTech": "Dynamite",//过时
+	  "uniques": [
+		"Requires at least [2] population",
+		"[-1] population [in this city]",
+		"[+100]% Strength <vs cities> <when attacking>",
+		//"[+1500]% Strength <during the [Ancient era]>",
+		//"[+750]% Strength <during the [Classical era]>",
+		//"[+325]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+		//"[+1] Movement <in [Forest] tiles>",
+		"Double movement in [Forest]",
+		"Double movement in [Jungle]",
+		"Unable to capture cities",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "attackSound": "cannon"
+	},
+	{
+	  "name": "纯种精灵",
+	  "unitType": "Archery",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Archer",
+	  "movement": 2,
+	  "strength": 7,
+	  "rangedStrength": 9,
+	  "range": 3,
+	  "cost": 0,
+	  "requiredTech": "Archery",
+	  "upgradesTo": "混血精灵",
+	  "obsoleteTech": "Machinery",
+	  "uniques": [
+		"Requires at least [6] population",
+		"[-5] population [in this city]",
+		//"[+1200]% Strength <during the [Ancient era]>",
+		//"[+600]% Strength <during the [Classical era]>",
+		//"[+300]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+	    "Double movement in [Forest]",
+	    "Double movement in [Jungle]",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "attackSound": "arrow"
+	},
+	{
+	  "name": "混血精灵",
+	  "unitType": "Archery",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Composite Bowman",
+	  "movement": 3,
+	  "strength": 6,
+	  "rangedStrength": 8,
+	  "range": 3,
+	  "cost": 0,
+	  "requiredTech": "Construction",
+	  "upgradesTo": "杂种精灵",
+	  "obsoleteTech": "Machinery",
+	  "uniques": [
+		"Requires at least [4] population",
+		"[-3] population [in this city]",
+		//"[+1200]% Strength <during the [Ancient era]>",
+		//"[+600]% Strength <during the [Classical era]>",
+		//"[+300]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+	    "Double movement in [Forest]",
+	    "Double movement in [Jungle]",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "attackSound": "arrow"
+	},
+	{
+	  "name": "杂种精灵",
+	  "unitType": "Archery",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Crossbowman",
+	  "movement": 3,
+	  "strength": 5,
+	  "rangedStrength": 7,
+	  "range": 3,
+	  "cost": 0,
+	  "requiredTech": "Machinery",
+	  "upgradesTo": "Gatling Gun",
+	  "obsoleteTech": "Industrialization",
+	  "uniques": [
+		"Requires at least [2] population",
+		"[-1] population [in this city]",
+		//"[+1200]% Strength <during the [Ancient era]>",
+		//"[+600]% Strength <during the [Classical era]>",
+		//"[+300]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+	    "Double movement in [Forest]",
+	    "Double movement in [Jungle]",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "attackSound": "arrow"
+	},
+	{
+	  "name": "纯种人马",
+	  "unitType": "Mounted",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Horseman",
+	  "movement": 5,
+	  "strength": 14,
+	  "cost": 0,
+	  "requiredTech": "Horseback Riding",
+	  "upgradesTo": "半人马",
+	  "obsoleteTech": "Chivalry",
+	  "uniques": [
+		"Requires at least [6] population",
+		"[-5] population [in this city]",
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>" ,
+		//"[+1500]% Strength <during the [Ancient era]>",
+		//"[+750]% Strength <during the [Classical era]>",
+		//"[+325]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+		"Double movement in [Forest]",
+		"Double movement in [Jungle]",
+		"Never appears as a Barbarian unit"
+	  ],
+	  	"attackSound": "horse"
+	},
+	{
+	  "name": "人马射手",
+	  "unitType": "Archery",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Chariot Archer",
+	  "movement": 5,
+	  "strength": 14,
+	  "rangedStrength": 10,
+	  "range": 3,
+	  "cost": 0,
+	  "requiredTech": "The Wheel",
+	  "upgradesTo": "半人马",
+	  "obsoleteTech": "Chivalry",
+	  "uniques": [
+		"Requires at least [6] population",
+		"[-5] population [in this city]",
+		//"[+1500]% Strength <during the [Ancient era]>",
+		//"[+750]% Strength <during the [Classical era]>",
+		//"[+325]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+		"Double movement in [Forest]",
+		"Double movement in [Jungle]",
+		"Never appears as a Barbarian unit"
+	  ],
+	  	"attackSound": "arrow"
+	},
+	{
+	  "name": "半人马",
+	  "unitType": "Mounted",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Knight",
+	  "movement": 6,
+	  "strength": 16,
+	  "cost": 0,
+	  "requiredTech": "Chivalry",
+	  "upgradesTo": "Cavalry",
+	  "requiredResource": "Horses",
+	  "obsoleteTech": "Military Science",
+	  "uniques": [
+		"Requires at least [4] population",
+		"[-3] population [in this city]",
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>" ,
+		//"[+1500]% Strength <during the [Ancient era]>",
+		//"[+750]% Strength <during the [Classical era]>",
+		//"[+325]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+		"Double movement in [Forest]",
+		"Double movement in [Jungle]",
+		"Never appears as a Barbarian unit"
+	  ],
+	  	"attackSound": "horse"
+	},
+	{
+	  "name": "纯种兽人",
+	  "unitType": "Sword",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Warrior",
+	  "movement": 2,
+	  "strength": 16,
+	  "cost": 0,
+	  "upgradesTo": "混血兽人",
+	  "obsoleteTech": "Iron Working",
+	  "uniques": [
+		"Requires at least [6] population",
+		"[-5] population [in this city]",
+		//"[+1700]% Strength <during the [Ancient era]>",
+		//"[+850]% Strength <during the [Classical era]>",
+		//"[+425]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+		"Double movement in [Forest]",
+		"Double movement in [Jungle]",
+		"Never appears as a Barbarian unit"
+		//"May upgrade to [] through ruins-like effects"
+	  ],
+	  "attackSound": "metalhit"
+	},
+	{
+	  "name": "混血兽人",
+	  "unitType": "Sword",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Swordsman",
+	  "movement": 2,
+	  "strength": 17,
+	  "cost": 0,
+	  "upgradesTo": "伪种兽人",
+	  "requiredTech": "Iron Working",
+	  "obsoleteTech": "Steel",
+	  "uniques": [
+		"Requires at least [4] population",
+		"[-3] population [in this city]",
+		//"[+1700]% Strength <during the [Ancient era]>",
+		//"[+850]% Strength <during the [Classical era]>",
+		//"[+425]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+		"Double movement in [Forest]",
+		"Double movement in [Jungle]",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "attackSound": "metalhit"
+	},
+	{
+	  "name": "伪种兽人",
+	  "unitType": "Sword",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Longswordsman",
+	  "movement": 2,
+	  "strength": 18,
+	  "cost": 0,
+	  "upgradesTo": "Musketman",
+ 	  "requiredTech": "Steel",
+	  "obsoleteTech": "Gunpowder",
+	  "uniques": [
+		"Requires at least [2] population",
+		"[-1] population [in this city]",
+		//"[+1700]% Strength <during the [Ancient era]>",
+		//"[+850]% Strength <during the [Classical era]>",
+		//"[+425]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+		"Double movement in [Forest]",
+		"Double movement in [Jungle]",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "attackSound": "metalhit"
+	},
+	{
+	  "name": "息灵枪兵",
+	  "unitType": "Sword",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Spearman",
+	  "movement": 2,
+	  "strength": 16,
+	  "cost": 0,
+	  "upgradesTo": "息灵长枪兵",
+ 	  "requiredTech": "Bronze Working",
+	  "obsoleteTech": "Civil Service",
+	  "uniques": [
+		"Requires at least [6] population",
+		"[-5] population [in this city]",
+		//"[+1700]% Strength <during the [Ancient era]>",
+		//"[+850]% Strength <during the [Classical era]>",
+		//"[+425]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+		"Double movement in [Forest]",
+		"Double movement in [Jungle]",
+		"[+50]% Strength <vs [Mounted] units>",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "attackSound": "metalhit"
+	},
+	{
+	  "name": "息灵长枪兵",
+	  "unitType": "Sword",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Pikeman",
+	  "movement": 2,
+	  "strength": 14,
+	  "cost": 0,
+	  "upgradesTo": "狂斧人马",
+ 	  "requiredTech": "Civil Service",
+	  "obsoleteTech": "Metallurgy",
+	  "uniques": [
+		"Requires at least [4] population",
+		"[-3] population [in this city]",
+		//"[+1700]% Strength <during the [Ancient era]>",
+		//"[+850]% Strength <during the [Classical era]>",
+		//"[+425]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+		"Double movement in [Forest]",
+		"Double movement in [Jungle]",
+		"[+50]% Strength <vs [Mounted] units>",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "attackSound": "metalhit"
+	},
+	{
+	  "name": "狂斧人马",
+	  "unitType": "Mounted",
+	  "uniqueTo": "息灵族",
+	  "replaces": "Lancer",
+	  "movement": 5,
+	  "strength": 20,
+	  "cost": 0,
+	  "upgradesTo": "Anti-Tank Gun",
+ 	  "requiredTech": "Metallurgy",
+	  "obsoleteTech": "Combined Arms",
+	  "requiredResource": "Horses",
+	  "uniques": [
+		"Requires at least [2] population",
+		"[-1] population [in this city]",
+		//"[+1700]% Strength <during the [Ancient era]>",
+		//"[+850]% Strength <during the [Classical era]>",
+		//"[+425]% Strength <during the [Medieval era]>",
+		//"[+100]% Strength <during the [Renaissance era]>",
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>",
+		"Never appears as a Barbarian unit"
+		"Double movement in [Forest]",
+		"Double movement in [Jungle]",
+		"Never appears as a Barbarian unit"
+	  ],
+	  	"attackSound": "horse"
+	},
+	{
+	  "name": "幼龙",
+	  "uniqueTo": "龙族",
+	  "unitType": "龙",
+	  "strength": 15,
+	  "movement": 1,
+	  "cost": 0,
+	  "uniques": [
+		"[-10] population [in this city]",
+		"Requires at least [11] population<hidden from users>",
+		"Never appears as a Barbarian unit",
+		"Only available <if [龙巢] is constructed>",
+		"[+33]% Strength <for [龙] units> <when below [-10] Happiness>",
+		"[-20]% Strength <when below [-1] [龙珠]>",
+		"Unable to pillage tiles",
+		"[-5]% Strength <during the [Classical era]>",
+		"[-5]% Strength <during the [Medieval era]>",
+		"[-5]% Strength <during the [Renaissance era]>",
+		"[-10]% Strength <during the [Industrial era]>",
+		"[-15]% Strength <during the [Modern era]>",
+		"[-20]% Strength <during the [Atomic era]>",
+		"[-25]% Strength <during the [Information era]>",
+		"[-30]% Strength <during the [Future era]>",
+	  ],
+	  "promotions": [
+		"贪欲"
+	  ]
+	},
+	{
+	  "name": "小龙",
+	  "uniqueTo": "龙族",
+	  "unitType": "龙",
+	  "strength": 21,
+	  "movement": 2,
+	  "cost": 0,
+	  "uniques": [
+		"[-20] population [in this city]",
+		"Requires at least [21] population<hidden from users>",
+		"Never appears as a Barbarian unit",
+		"Only available <if [龙巢] is constructed>",
+		"[+33]% Strength <for [龙] units> <when below [-10] Happiness>",
+		"[-20]% Strength <when below [-1] [龙珠]>",
+		"Unable to pillage tiles",
+		"[-5]% Strength <during the [Medieval era]>",
+		"[-5]% Strength <during the [Renaissance era]>",
+		"[-10]% Strength <during the [Industrial era]>",
+		"[-15]% Strength <during the [Modern era]>",
+		"[-20]% Strength <during the [Atomic era]>",
+		"[-25]% Strength <during the [Information era]>",
+		"[-30]% Strength <during the [Future era]>",
+	  ],
+	  "promotions": [
+		"贪欲",
+		"甲鳞"
+	  ]
+	},
+	{
+	  "name": "成龙",
+	  "uniqueTo": "龙族",
+	  "unitType": "龙",
+	  "strength": 28,
+	  "range": 2,
+	  "rangedStrength": 20,
+	  "movement": 3,
+	  "cost": 0,
+	  "uniques": [
+		"[-30] population [in this city]",
+		"Requires at least [31] population<hidden from users>",
+		"Never appears as a Barbarian unit",
+		"Only available <if [龙巢] is constructed>",
+		"[+33]% Strength <for [龙] units> <when below [-10] Happiness>",
+		"[-30]% Strength <when below [-1] [龙珠]>",
+		"Unable to pillage tiles",
+		"[-5]% Strength <during the [Renaissance era]>",
+		"[-10]% Strength <during the [Industrial era]>",
+		"[-15]% Strength <during the [Modern era]>",
+		"[-20]% Strength <during the [Atomic era]>",
+		"[-25]% Strength <during the [Information era]>",
+		"[-30]% Strength <during the [Future era]>",
+	  ],
+	  "promotions": [
+		"贪欲",
+		"甲鳞",
+		"龙焰"
+	  ]
+	},
+	{
+	  "name": "巨龙",
+	  "uniqueTo": "龙族",
+	  "unitType": "龙",
+	  "strength": 36,
+	  "range": 3,
+	  "rangedStrength": 28,
+	  "movement": 4,
+	  "cost": 0,
+	  "uniques": [
+		"[-40] population [in this city]",
+		"Requires at least [41] population<hidden from users>",
+		"Never appears as a Barbarian unit",
+		"Only available <if [龙巢] is constructed>",
+		"[+33]% Strength <for [龙] units> <when below [-10] Happiness>",
+		"[-30]% Strength <when below [-1] [龙珠]>",
+		"Unable to pillage tiles",
+		"[-10]% Strength <during the [Industrial era]>",
+		"[-15]% Strength <during the [Modern era]>",
+		"[-20]% Strength <during the [Atomic era]>",
+		"[-25]% Strength <during the [Information era]>",
+		"[-30]% Strength <during the [Future era]>",
+	  ],
+	  "promotions": [
+		"贪欲",
+		"甲鳞",
+		"龙焰",
+		"威压"
+	  ]
+	},
+	{
+	  "name": "神龙",
+	  "uniqueTo": "龙族",
+	  "unitType": "龙",
+	  "strength": 50,
+	  "movement": 5,
+	  "cost": 0,
+	  "uniques": [
+		"[-50] population [in this city]",
+		"Requires at least [51] population<hidden from users>",
+		"Instantly provides [1] [龙珠]",
+		//"Instantly provides [1] [龙珠]<upon ending a turn in a [All] tile>",
+		"Never appears as a Barbarian unit",
+		"Only available <if [龙巢] is constructed>",
+		"[+33]% Strength <for [龙] units> <when below [-10] Happiness>",
+		"[-50]% Strength <when below [-1] [龙珠]>",
+		"Unable to pillage tiles",
+		"[-15]% Strength <during the [Modern era]>",
+		"[-20]% Strength <during the [Atomic era]>",
+		"[-25]% Strength <during the [Information era]>",
+		"[-30]% Strength <during the [Future era]>",
+	  ],
+	  "promotions": [
+		"贪欲",
+		"甲鳞",
+		"龙焰",
+		"威压",
+		"诛杀"
+	  ]
+	},
+	{
+	  "name": "祖龙",
+	  "uniqueTo": "龙族",
+	  "unitType": "龙",
+	  "strength": 70,
+	  "movement": 6,
+	  "cost": 300,
+	  "uniques": [
+		//"Consumes [3] [龙珠]",
+		"Instantly consumes [3] [龙珠]",
+		"Requires at least [4] [龙珠]",
+		"Never appears as a Barbarian unit",
+		"Only available <if [龙巢] is constructed>",
+		//"Unbuildable <when below [2] [龙珠]><hidden from users>",
+		"[+33]% Strength <for [龙] units> <when below [-10] Happiness>",
+		"[-50]% Strength <when below [-1] [龙珠]>",
+		"Unable to pillage tiles",
+		"[-20]% Strength <during the [Atomic era]>",
+		"[-25]% Strength <during the [Information era]>",
+		"[-30]% Strength <during the [Future era]>"
+	  ],
+	  "promotions": [
+		"贪欲",
+		"甲鳞",
+		"龙焰",
+		"威压",
+		"诛杀",
+		"不死"
+	  ]
+	},
+	{
+	  "name": "亚特兰神卫骑兵",
+	  "unitType": "Mounted",
+	  "uniqueTo": "亚特兰蒂斯",
+	  "replaces": "Knight",
+	  "movement": 4,
+	  "strength": 20,
+	  "cost": 120,
+	  "requiredTech": "Chivalry",
+	  "obsoleteTech": "Military Science",
+	  "upgradesTo": "Cavalry",
+	  "uniques": [
+		"[-50]% Strength <vs cities>",
+		"Destroys tile improvements when attacking",
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "promotions": [
+		"治愈涟渏",
+		"海员"
+	  ],
+	  "attackSound": "arrow"
+	},
+	{
+	  "name": "亚特兰神卫渔人军",
+	  "unitType": "Sword",
+	  "uniqueTo": "亚特兰蒂斯",
+	  "replaces": "Pikeman",
+	  "movement": 2,
+	  "strength": 20,
+	  "cost": 40,
+	  "requiredTech": "Civil Service",
+	  "obsoleteTech": "Metallurgy",
+	  "upgradesTo": "Lancer",
+	  "uniques": [
+		"[+50]% Strength <vs [Wounded] units>"
+	  ],
+	  "promotions": [
+		"治愈涟渏",
+		"海员"
+	  ]
+	},
+	{
+	  "name": "机灵军队",
+	  "unitType": "Gunpowder",
+	  "uniqueTo": "天鹰帝国",
+	  "replaces": "Mechanized Infantry",
+	  "movement": 4,
+	  "strength": 85,
+	  "cost": 320,
+	  "requiredTech": "Mobile Tactics",
+	  "uniques": [
+		"[1] additional attacks per turn",
+		"Withdraws before melee combat <with [70]% chance>",
+		"[+5]% to Flank Attack bonuses",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "attackSound": "tankshot"
+	},
+	{
+	  "name": "云端直升飞机",
+	  "unitType": "Helicopter",
+	  "uniqueTo": "天鹰帝国",
+	  "replaces": "Helicopter Gunship",
+	  "movement": 6,
+	  "strength": 45,
+	  "rangedStrength": 50,
+	  "cost": 420,
+	  "requiredTech": "Computers",
+	  "requiredResource": "Aluminum",
+	  "uniques": [
+		"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+		"[+5]% to Flank Attack bonuses",
+		"Unit will heal every turn, even if it performs an action",
+		"No defensive terrain bonus",
+		"Can move after attacking",
+		"All tiles cost 1 movement",
+		"Ignores Zone of Control",
+		"Unable to capture cities",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "promotions": [
+		"云端"
+	  ],
+	  "attackSound": "machinegun"
+	},
+	{
+	  "name": "高达",
+	  "unitType": "Armored",
+	  "uniqueTo": "天鹰帝国",
+	  "replaces": "Giant Death Robot",
+	  "movement": 8,
+	  "strength": 200,
+	  "cost": 500,
+	  "requiredTech": "Nuclear Fusion",
+	  "requiredResource": "Uranium",
+	  "uniques": [
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[1] additional attacks per turn",
+		"May Paradrop up to [7] tiles from inside friendly territory",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "attackSound": "gdrAttack"
+	},
+	{
+	  "name": "游集战机",
+	  "unitType": "Bomber",
+	  "uniqueTo": "天鹰帝国",
+	  "replaces": "Stealth Bomber",
+	  "movement": 5,
+	  "strength": 95,
+	  "rangedStrength": 95,
+	  "range": 15,
+	  "cost": 450,
+	  "requiredTech": "Stealth",
+	  "requiredResource": "Uranium",
+	  "uniques": [
+		"Damage taken from interception reduced by [100]%",
+		"[+4] Sight",
+		"Can see over obstacles",
+		"[1] additional attacks per turn"
+	  ],
+	  "attackSound": "bombing"
+	},
+	{
+	  "name": "悬浮战机",
+	  "unitType": "Helicopter",
+	  "movement": 20,
+	  "strength": 70,
+	  "rangedStrength": 60,
+	  "cost": 500,
+	  "requiredTech": "Nanotechnology",
+	  "requiredResource": "Uranium",
+	  "uniques": [
+	    "Consumes [3] [Uranium]",
+	    //"Instantly consumes [10] [Uranium]",
+		"Unit will heal every turn, even if it performs an action",
+		"No defensive terrain bonus",
+		"Can move after attacking",
+		"All tiles cost 1 movement",
+		"Ignores Zone of Control",
+		"Unable to capture cities",
+		"[+100]% Strength <for [Military] units> <within [3] tiles of a [River]>",
+		"[-64]% Strength <when below [0] [Uranium]>",
+		"Never appears as a Barbarian unit"
+	  ],
+	  "promotions": [
+		"海员",
+		"全抗"
+	  ],
+	  "attackSound": "shipguns"
+	}
+]

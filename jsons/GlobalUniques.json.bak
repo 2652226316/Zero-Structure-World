@@ -1,0 +1,28 @@
+{
+    "name": "Global uniques",
+    "uniques":[
+        //晋升
+        "[All] units gain the [弑龙者] promotion",
+        "[All] units gain the [入魔] promotion",
+        
+        //灵气
+       "[+1 Faith] per [1] population [in all cities] <when above [30] [灵气]>",
+       "[All] units gain the [吸收] promotion <when above [50] [灵气]>",
+       "[All] units gain the [修仙者] promotion <when above [100] [灵气]>",
+       "[+1 Food] from [All] tiles [in all cities] <when above [300] [灵气]>",
+       "[+1 Production] from [All] tiles [in all cities] <when above [500] [灵气]>",
+       "[+1 Faith] from [All] tiles [in all cities] <when above [700] [灵气]>",
+       "[+1 Culture] per [1] population [in all cities] <when above [700] [灵气]>",
+       
+       "[-1 Faith] per [1] population [in all cities] <when below [-30] [灵气]>",
+      "[+8]% [Science] [in all cities] <when below [-30] [灵气]>",
+      "[All] units gain the [灵慧] promotion <when below [-50] [灵气]>",
+      "[All] units gain the [智慧] promotion <when below [-100] [灵气]>",
+      "[-1 Food] from [All] tiles [in all cities] <when below [-300] [灵气]>",
+      "[+1 Culture] from [All] tiles [in all cities] <when below [-300] [灵气]>",
+      "[+30]% growth [in all cities] <when below [500] [灵气]>",
+      "[+1 Production] from [All] tiles [in all cities] <when below [-500] [灵气]>",
+      "[+1 Science] from [All] tiles [in all cities] <when below [-700] [灵气]>",
+      "[-1 Faith] per [1] population [in all cities] <when below [-700] [灵气]>",
+    ]
+}

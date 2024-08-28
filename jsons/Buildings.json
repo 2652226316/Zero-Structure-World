@@ -1,0 +1,2900 @@
+[
+{
+        "name": "科技路",
+        "cost": 1,
+        "maintenance": 0,
+        "uniques": [
+          "Unsellable",
+          "Only available <in cities without a [修仙路]>", 
+        ],
+        "requiredTech": "资源科技",
+        "uniqueText": "能建造科技建筑"
+    },
+{
+        "name": "篝火",
+        "culture": 1,
+        "cost": 50,
+        "maintenance": 1,
+        "uniques": [
+            "Consumes [1] [灵气] <in this city>",
+            "Cost increases by [10] per owned city",
+            "Destroyed when the city is captured"
+        ],
+        "requiredBuilding": "科技路",
+        "requiredTech": "Writing",
+        "uniqueText": "减少更多的灵气"
+    },
+    {
+        "name": "讲道",
+        "culture": 1,
+        "faith": 1,
+        "cost": 100,
+        "maintenance": 2,
+        "uniques": [
+            "Consumes [5] [灵气] <in this city>",
+            "Cost increases by [20] per owned city",
+            "Destroyed when the city is captured"
+        ],
+        "requiredBuilding": "篝火",
+        "requiredTech": "Philosophy",
+        "uniqueText": "减少更多的灵气"
+    },
+    {
+        "name": "书籍",
+        "culture": 2,
+        "science": 2,
+        "cost": 150,
+        "maintenance": 3,
+        "uniques": [
+            "Consumes [10] [灵气] <in this city>",
+            "Cost increases by [30] per owned city",
+            "Destroyed when the city is captured"
+        ],
+        "requiredBuilding": "讲道",
+        "requiredTech": "Education",
+        "uniqueText": "减少更多的灵气"
+    },
+    {
+        "name": "公开讲座",
+        "culture": 2,
+        "science": 3,
+        "cost": 200,
+        "maintenance": 4,
+        "uniques": [
+            "Consumes [30] [灵气] <in this city>",
+            "Cost increases by [40] per owned city",
+            "Destroyed when the city is captured"
+        ],
+        "requiredBuilding": "书籍",
+        "requiredTech": "Astronomy",
+        "uniqueText": "减少更多的灵气"
+    },
+    {
+        "name": "报纸",
+        "culture": 3,
+        "science": 3,
+        "cost": 250,
+        "maintenance": 5,
+        "uniques": [
+            "Consumes [50] [灵气] <in this city>",
+            "Cost increases by [50] per owned city",
+            "Destroyed when the city is captured"
+        ],
+        "requiredBuilding": "公开讲座",
+        "requiredTech": "Electricity",
+        "uniqueText": "减少更多的灵气"
+    },
+    {
+        "name": "学校",
+        "culture": 3,
+        "science": 4,
+        "cost": 300,
+        "maintenance": 6,
+        "uniques": [
+            "Consumes [100] [灵气] <in this city>",
+            "Cost increases by [60] per owned city",
+            "Destroyed when the city is captured"
+        ],
+        "requiredBuilding": "报纸",
+        "requiredTech": "Electronics",
+        "uniqueText": "减少更多的灵气"
+    },
+{
+        "name": "灵气复苏",
+        "cost": 500,
+        "isWonder": true,
+        "isNationalWonder": true,
+        "uniques": [
+            "Instantly consumes [1000] [灵气]",
+            "Only available <when above [1000] [灵气]>",
+            "Triggers a global alert upon build start",
+            //"Unbuildable <when below [999] [龙珠]> <hidden from users>",
+            "Comment [作为灵气复苏胜利条件]",
+            "Hidden when [灵气复苏] Victory is disabled",
+            "Cannot be hurried"
+        ],
+           "uniqueText": "浓厚的灵气将世界打造成一个可以令人修仙的地方，而创造者也将成为第一代被人追随尊从的仙者！"
+    },
+    {
+        "name": "修仙路",
+        "cost": 1,
+        "isNationalWonder": true,
+        "uniques": [
+          "Unsellable",
+          "Only available <in cities without a [科技路]>", 
+        ],
+        "requiredTech": "资源科技",
+        "uniqueText": "能建造修仙建筑"
+    },
+{
+        "name": "聚灵法阵",
+        "faith": 1,
+        "cost": 50,
+        "maintenance": 1,
+        "uniques": [
+            //"Instantly provides [1] [灵气]",
+            "Provides [1] [灵气] <in this city>",
+            "Cost increases by [10] per owned city",
+            "Destroyed when the city is captured"
+        ],
+        "requiredBuilding": "修仙路",
+        "requiredTech": "Pottery",
+        "uniqueText": "提供更多的灵气"
+    },
+    {
+        "name": "散修会",
+        "faith": 1,
+        "culture": 1,
+        "cost": 100,
+        "maintenance": 2,
+        "uniques": [
+            "Instantly consumes [10] [灵气]",
+            "Provides [2] [灵气] <in this city>",
+            "Cost increases by [20] per owned city",
+            "Destroyed when the city is captured"
+        ],
+        "requiredBuilding": "聚灵法阵",
+        "requiredTech": "Philosophy",
+        "uniqueText": "提供更多的灵气"
+    },
+        {
+        "name": "教派",
+        "faith": 2,
+        "culture": 1,
+        "cost": 150,
+        "maintenance": 3,
+        "uniques": [
+            "Instantly consumes [50] [灵气]",
+            "Provides [5] [灵气] <in this city>",
+            "Cost increases by [30] per owned city",
+            "Destroyed when the city is captured"
+        ],
+        "requiredBuilding": "散修会",
+        "requiredTech": "Education",
+        "uniqueText": "提供更多的灵气"
+    },
+            {
+        "name": "宗门",
+        "faith": 2,
+        "culture": 1,
+        "food": 1,
+        "cost": 200,
+        "maintenance": 4,
+        "uniques": [
+            "Instantly consumes [100] [灵气]",
+            "Provides [10] [灵气] <in this city>",
+            "Cost increases by [40] per owned city",
+            "Destroyed when the city is captured"
+        ],
+        "requiredBuilding": "教派",
+        "requiredTech": "Astronomy",
+        "uniqueText": "提供更多的灵气"
+    },
+    {
+        "name": "圣教",
+        "faith": 3,
+        "culture": 1,
+        "food": 1,
+        "cost": 250,
+        "maintenance": 5,
+        "uniques": [
+            "Instantly consumes [200] [灵气]",
+            "Provides [50] [灵气] <in this city>",
+            "Cost increases by [50] per owned city",
+            "Destroyed when the city is captured"
+        ],
+        "requiredBuilding": "宗门",
+        "requiredTech": "Electricity",
+        "uniqueText": "提供更多的灵气"
+    },
+        {
+        "name": "大圣教",
+        "faith": 3,
+        "culture": 1,
+        "food": 1,
+        "good": 1,
+        "cost": 300,
+        "maintenance": 6,
+        "uniques": [
+            "Instantly consumes [500] [灵气]",
+            "Provides [100] [灵气] <in this city>",
+            "Cost increases by [60] per owned city",
+            "Destroyed when the city is captured"
+        ],
+        "requiredBuilding": "圣教",
+        "requiredTech": "Electronics",
+        "uniqueText": "提供更多的灵气"
+    },
+{
+        "name": "灵气阁",
+        "replaces": "Palace",
+        "uniqueTo": "剑来",
+        "cost": 1,
+        "science": 3,
+        "production": 3,
+        "food": 2,
+        "faith": 1,
+        "culture": 3,
+        "happiness": 2,
+        "cityStrength": 3,
+        "isNationalWonder": true,
+        "uniques": [
+            "Indicates the capital city",
+            "Free [陈平安] appears",
+            //"Instantly provides [1] [灵气]"
+            "Provides [1] [灵气] <in this city>"
+        ]
+    },
+{
+        "name": "狼烟",
+        "cost": 60,
+        "maintenance": 1,
+        "uniques": [
+        "Cost increases by [5] when built",
+            "Unsellable",
+            "Cannot be purchased",
+            "Destroyed when the city is captured",
+            "Reveal up to [100] [All] within a [20] tile radius"
+        ],
+        "requiredTech": "Engineering",
+    },
+    {
+        "name": "购买-灵气1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [灵气] <in this city>"
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源灵气"
+    },
+       {
+        "name": "购买-灵气2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [10] [灵气] <in this city>"
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源灵气"
+    },
+    {
+        "name": "购买-灵气3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [50] [灵气] <in this city>"
+            "Gain [-1000] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源灵气"
+    },
+{
+        "name": "购买-铀1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Uranium]",
+            "Gain [-1000] [Gold]",
+            "Only available <starting from the [Atomic era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+          "uniqueText": "免费获得资源铀一个"
+    },
+       {
+        "name": "购买-铀2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Uranium]",
+            "Gain [-2000] [Gold]",
+            "Only available <starting from the [Information era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源铀一个"
+    },
+    {
+        "name": "购买-铀3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Uranium]",
+            "Gain [-3000] [Gold]",
+            "Only available <starting from the [Information era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源铀一个"
+    },
+{
+        "name": "购买-铁1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Iron]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源铁一个"
+    },
+       {
+        "name": "购买-铁2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Iron]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源铁一个"
+    },
+    {
+        "name": "购买-铁3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Iron]",
+            "Gain [-1000] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源铁一个"
+    },
+{
+        "name": "购买-石油1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Oil]",
+            "Gain [-1000] [Gold]",
+            "Only available <starting from the [Industrial era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源石油一个"
+    },
+        {
+        "name": "购买-石油2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Oil]",
+            "Gain [-2000] [Gold]",
+            "Only available <starting from the [Modern era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源石油一个"
+    },
+    {
+        "name": "购买-石油3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Oil]",
+            "Gain [-3000] [Gold]",
+            "Only available <starting from the [Atomic era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源石油一个"
+    },
+{
+        "name": "购买-煤1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Coal]",
+            "Gain [-1000] [Gold]",
+            "Only available <starting from the [Industrial era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源煤一个"
+    },
+    {
+        "name": "购买-煤2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Coal]",
+            "Gain [-2000] [Gold]",
+            "Only available <starting from the [Modern era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源煤一个"
+    },
+    {
+        "name": "购买-煤3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Coal]",
+            "Gain [-3000] [Gold]",
+            "Only available <starting from the [Atomic era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源煤一个"
+    },
+{
+        "name": "购买-马1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Horses]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+            "uniqueText": "免费获得资源马一个"
+    },
+    {
+        "name": "购买-马2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Horses]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+            "uniqueText": "免费获得资源马一个"
+    },
+    {
+        "name": "购买-马3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Horses]",
+            "Gain [-1000] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+            "uniqueText": "免费获得资源马一个"
+    },
+{
+        "name": "购买-铝1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Aluminum]",
+            "Gain [-1000] [Gold]",
+            "Only available <starting from the [Industrial era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+            "uniqueText": "免费获得资源铝一个"
+    },
+    {
+        "name": "购买-铝2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Aluminum]",
+            "Gain [-2000] [Gold]",
+            "Only available <starting from the [Modern era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+            "uniqueText": "免费获得资源铝一个"
+    },
+        {
+        "name": "购买-铝3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Aluminum]",
+            "Gain [-3000] [Gold]",
+            "Only available <starting from the [Atomic era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+           "uniqueText": "免费获得资源铝一个"
+    },
+{
+        "name": "购买-龙珠1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [龙珠]",
+            "Gain [-1000] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源龙珠一个"
+    },
+    {
+        "name": "购买-龙珠2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [龙珠]",
+            "Gain [-2000] [Gold]",
+            "Only available <starting from the [Renaissance era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-战略资源]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源龙珠一个"
+    },
+    {
+        "name": "购买-龙珠3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [龙珠]",
+            "Gain [-3000] [Gold]",
+            "Only available <starting from the [Atomic era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得资源龙珠一个"
+    },
+{
+        "name": "购买-珠宝饰品1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Jewelry]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品宝珠饰品一个"
+    },
+        {
+        "name": "购买-珠宝饰品2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Jewelry]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品宝珠饰品一个"
+    },
+            {
+        "name": "购买-珠宝饰品3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Jewelry]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品宝珠饰品一个"
+    },
+{
+        "name": "购买-珍珠1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Pearls]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品珍珠一个"
+    },
+    {
+        "name": "购买-珍珠2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Pearls]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品珍珠一个"
+    },
+        {
+        "name": "购买-珍珠3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Pearls]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品珍珠一个"
+    },
+{
+        "name": "购买-蔗糖1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Sugar]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品蔗糖一个"
+    },
+        {
+        "name": "购买-蔗糖2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Sugar]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品蔗糖一个"
+    },
+    {
+        "name": "购买-蔗糖3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Sugar]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品蔗糖一个"
+    },
+{
+        "name": "购买-盐1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Salt]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品盐一个"
+    },
+    {
+        "name": "购买-盐2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Salt]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品盐一个"
+    },
+    {
+        "name": "购买-盐3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Salt]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品盐一个"
+    },
+{
+        "name": "购买-熏香1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Incense]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品熏香一个"
+    },
+        {
+        "name": "购买-熏香2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Incense]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品熏香一个"
+    },
+    {
+        "name": "购买-熏香3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Incense]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品熏香一个"
+    },
+{
+        "name": "购买-象牙1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Ivory]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品象牙一个"
+    },
+    {
+        "name": "购买-象牙2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Ivory]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品象牙一个"
+    },
+        {
+        "name": "购买-象牙3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Ivory]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品象牙一个"
+    },
+    {
+        "name": "购买-香料1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Spices]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品香料一个"
+    },
+    {
+        "name": "购买-香料2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Spices]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品香料一个"
+    },
+    {
+        "name": "购买-香料3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Spices]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品香料一个"
+    },
+    {
+        "name": "购买-松露1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Truffles]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品松露一个"
+    },
+    {
+        "name": "购买-松露2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Truffles]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品松露一个"
+    },
+    {
+        "name": "购买-松露3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Truffles]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品松露一个"
+    },
+    {
+        "name": "购买-丝绸1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Silk]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品丝绸一个"
+    },
+    {
+        "name": "购买-丝绸2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Silk]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品丝绸一个"
+    },
+    {
+        "name": "购买-丝绸3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Silk]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品丝绸一个"
+    },
+    {
+        "name": "购买-染料1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Dyes]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品染料一个"
+    },
+    {
+        "name": "购买-染料2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Dyes]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品染料一个"
+    },
+    {
+        "name": "购买-染料3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Dyes]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品染料一个"
+    },
+    {
+        "name": "购买-螃蟹1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Crab]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品螃蟹一个"
+    },
+    {
+        "name": "购买-螃蟹2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Crab]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品螃蟹一个"
+    },
+    {
+        "name": "购买-螃蟹3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Crab]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品螃蟹一个"
+    },
+    {
+        "name": "购买-棉花1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Cotton]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品棉花一个"
+    },
+    {
+        "name": "购买-棉花2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Cotton]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品棉花一个"
+    },
+    {
+        "name": "购买-棉花3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Cotton]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品棉花一个"
+    },
+    {
+        "name": "购买-毛皮1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Furs]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品毛皮一个"
+    },
+    {
+        "name": "购买-毛皮2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Furs]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品毛皮一个"
+    },
+    {
+        "name": "购买-毛皮3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Furs]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品毛皮一个"
+    },
+    {
+        "name": "购买-鲸鱼1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Whales]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品鲸鱼一个"
+    },
+    {
+        "name": "购买-鲸鱼2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Whales]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品鲸鱼一个"
+    },
+    {
+        "name": "购买-鲸鱼3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Whales]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品鲸鱼一个"
+    },
+    {
+        "name": "购买-黄金1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Gold Ore]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品黄金一个"
+    },
+    {
+        "name": "购买-黄金2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Gold Ore]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品黄金一个"
+    },
+    {
+        "name": "购买-黄金3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Gold Ore]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品黄金一个"
+    },
+    {
+        "name": "购买-红酒1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Wine]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品红酒一个"
+    },
+    {
+        "name": "购买-红酒2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Wine]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品红酒一个"
+    },
+    {
+        "name": "购买-红酒3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Wine]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品红酒一个"
+    },
+    {
+        "name": "购买-柑橘1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Citrus]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品柑橘一个"
+    },
+    {
+        "name": "购买-柑橘2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Citrus]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品柑橘一个"
+    },
+    {
+        "name": "购买-柑橘3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Citrus]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品柑橘一个"
+    },
+    {
+        "name": "购买-大理石1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Marble]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品大理石一个"
+    },
+    {
+        "name": "购买-大理石2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Marble]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品大理石一个"
+    },
+    {
+        "name": "购买-大理石3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Marble]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品大理石一个"
+    },
+    {
+        "name": "购买-瓷器1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Porcelain]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品瓷器一个"
+    },
+    {
+        "name": "购买-瓷器2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Porcelain]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品瓷器一个"
+    },
+    {
+        "name": "购买-瓷器3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Porcelain]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品瓷器一个"
+    },
+    {
+        "name": "购买-赤铜1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Copper]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品赤铜一个"
+    },
+    {
+        "name": "购买-赤铜2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Copper]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品赤铜一个"
+    },
+    {
+        "name": "购买-赤铜3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Copper]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品赤铜一个"
+    },
+    {
+        "name": "购买-宝石1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Gems]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品宝石一个"
+    },
+    {
+        "name": "购买-宝石2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Gems]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品宝石一个"
+    },
+    {
+        "name": "购买-宝石3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Gems]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品宝石一个"
+    },
+    {
+        "name": "购买-白银1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Silver]",
+            "Gain [-200] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品白银一个"
+    },
+    {
+        "name": "购买-白银2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Silver]",
+            "Gain [-300] [Gold]",
+            "Only available <starting from the [Classical era]>",
+            "Requires at least [5] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品白银一个"
+    },
+    {
+        "name": "购买-白银3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Provides [1] [Silver]",
+            "Gain [-500] [Gold]",
+            "Only available <starting from the [Medieval era]>",
+            "Requires at least [10] population",
+            "Only available <in cities without a [隐藏-奢饰品]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Unsellable",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "免费获得奢侈品白银一个"
+    },
+    /*{
+        "name": "购买-产能1级",
+        "uniqueTo": "黄金国",
+        "cost": 30,
+        "maintenance": 999,
+        "uniques": [
+            "Gain [20] [Production]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "购买-产能2级",
+        "uniqueTo": "黄金国",
+        "cost": 60,
+        "maintenance": 999,
+        "uniques": [
+            "Gain [40] [Production]",
+            "Requires at least [5] population",
+            "Only available <starting from the [Classical era]>",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "购买-产能3级",
+        "uniqueTo": "黄金国",
+        "cost": 120,
+        "maintenance": 2999,
+        "uniques": [
+            "Gain [80] [Production]",
+            "Requires at least [10] population",
+            "Only available <starting from the [Medieval era]>",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "购买-产能4级",
+        "uniqueTo": "黄金国",
+        "cost": 240,
+        "maintenance": 5999,
+        "uniques": [
+            "Requires at least [15] population",
+            "Only available <starting from the [Renaissance era]>",
+            "Gain [160] [Production]",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "购买-产能5级",
+        "uniqueTo": "黄金国",
+        "cost": 480,
+        "maintenance": 9999,
+        "uniques": [
+            "Gain [360] [Production]",
+            "Requires at least [20] population",
+            "Only available <starting from the [Industrial era]>",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },*/
+    {
+        "name": "购买-信仰1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Gain [10] [Faith]",
+            "Gain [-100] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得信仰，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "购买-信仰2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Gain [30] [Faith]",
+            "Gain [-200] [Gold]",
+            "Requires at least [5] population",
+            "Only available <starting from the [Classical era]>",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得信仰，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "购买-信仰3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Gain [70] [Faith]",
+            "Gain [-500] [Gold]",
+            "Requires at least [10] population",
+            "Only available <starting from the [Medieval era]>",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得信仰，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "购买-信仰4级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Requires at least [15] population",
+            "Only available <starting from the [Renaissance era]>",
+            "Gain [160] [Faith]",
+            "Gain [-1000] [Gold]",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得信仰，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "购买-信仰5级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Gain [360] [Faith]",
+            "Gain [-2000] [Gold]",
+            "Requires at least [20] population",
+            "Only available <starting from the [Industrial era]>",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得信仰，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "购买-文化1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Gain [10] [Culture]",
+            "Gain [-100] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得文化，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "购买-文化2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Gain [30] [Culture]",
+            "Gain [-200] [Gold]",
+            "Requires at least [5] population",
+            "Only available <starting from the [Classical era]>",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得文化，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "购买-文化3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Gain [70] [Culture]",
+            "Gain [-500] [Gold]",
+            "Requires at least [10] population",
+            "Only available <starting from the [Medieval era]>",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得文化，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "购买-文化4级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Requires at least [15] population",
+            "Only available <starting from the [Renaissance era]>",
+            "Gain [160] [Culture]",
+            "Gain [-1000] [Gold]",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得文化，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "购买-文化5级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Gain [360] [Culture]",
+            "Gain [-2000] [Gold]",
+            "Requires at least [20] population",
+            "Only available <starting from the [Industrial era]>",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得文化，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "购买-科技1级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Gain [10] [Science]",
+            "Gain [-100] [Gold]",
+            "Only available <starting from the [Ancient era]>",
+            "Requires at least [1] population",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得科技，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "购买-科技2级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Gain [30] [Science]",
+            "Gain [-200] [Gold]",
+            "Requires at least [5] population",
+            "Only available <starting from the [Classical era]>",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得科技，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "购买-科技3级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Gain [70] [Science]",
+            "Gain [-500] [Gold]",
+            "Requires at least [10] population",
+            "Only available <starting from the [Medieval era]>",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得科技，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "购买-科技4级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Requires at least [15] population",
+            "Gain [-1000] [Gold]",
+            "Only available <starting from the [Renaissance era]>",
+            "Gain [160] [Science]",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得科技，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "购买-科技5级",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Gain [360] [Science]",
+            "Gain [-2000] [Gold]",
+            "Requires at least [20] population",
+            "Only available <starting from the [Industrial era]>",
+            "Only available <in cities without a [隐藏-数值]> <hidden from users>",
+            "Cannot be hurried",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "可以用钱购买这个建筑获得科技，不建议用生产力生产，并且出售后还可以继续买"
+    },
+    {
+        "name": "显示-奢侈品",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "uniques": [
+            "Unavailable <in cities with a [Sink into]>",
+            "Unbuildable <when below [0] [建筑开关]> <hidden from users>",
+            "Remove [隐藏-奢饰品] [in this city]  <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "建造这个会隐藏（隐藏奢侈品）的建筑"
+    },
+    {
+        "name": "隐藏-奢饰品",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "uniques": [
+            "Unavailable <in cities with a [Roused]>",
+            "Unbuildable <when below [0] [建筑开关]> <hidden from users>",
+            "Remove [显示-奢侈品] [in this city]  <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "建造这个会隐藏（显示奢侈品）的建筑和其他获得奢侈品的建筑"
+    },
+    {
+        "name": "显示-战略资源",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "uniques": [
+            "Unavailable <in cities with a [Sink into]>",
+            "Unbuildable <when below [0] [建筑开关]> <hidden from users>",
+            "Remove [隐藏-战略资源] [in this city]  <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "建造这个会隐藏（隐藏战略资源）的建筑"
+    },
+    {
+        "name": "隐藏-战略资源",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "uniques": [
+            "Unavailable <in cities with a [Roused]>",
+            "Unbuildable <when below [0] [建筑开关]> <hidden from users>",
+            "Remove [显示-战略资源] [in this city]  <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "建造这个会隐藏（显示战略资源）的建筑和其他获得战略资源的建筑"
+    },
+    {
+        "name": "显示-数值",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "uniques": [
+            "Unavailable <in cities with a [Sink into]>",
+            "Unbuildable <when below [0] [建筑开关]> <hidden from users>",
+            "Remove [隐藏-数值] [in this city]  <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "建造这个会隐藏（隐藏数值）的建筑"
+    },
+    {
+        "name": "隐藏-数值",
+        "uniqueTo": "黄金国",
+        "cost": 0,
+        "uniques": [
+            "Unavailable <in cities with a [Roused]>",
+            "Unbuildable <when below [0] [建筑开关]> <hidden from users>",
+            "Remove [显示-数值] [in this city]  <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+            "uniqueText": "建造这个会隐藏（显示数值）的建筑和其他获得数值加成的建筑"
+    },
+    {
+        "name": "许愿池",
+        "cost": 500,
+        "isWonder": true,
+        "isNationalWonder": true,
+        "uniques": [
+            //"Consumes [7] [龙珠]",
+            "Instantly consumes [7] [龙珠]",
+            "Only available <when above [7] [龙珠]>",
+            "Triggers a global alert upon build start",
+            //"Unbuildable <when below [6] [龙珠]> <hidden from users>",
+            "Comment [作为许愿胜利条件]",
+            "Hidden when [许愿] Victory is disabled",
+            "Cannot be hurried"
+        ],
+           "uniqueText": "集齐七颗龙珠,就可以建造他并且获得许愿胜利"
+    },
+    {
+        "name": "龙巢",
+        "uniqueTo": "龙族",
+        "cost": 0,
+        "uniques": [
+            //"Enables nuclear weapon",
+            "Unsellable",
+            "Automatically built in all cities where it is buildable",
+            "Destroyed when the city is captured"
+        ],
+        "requiredTech": "Agriculture",
+    },
+    /*{
+        "name": "护盾神律",
+        "replaces": "Palace",
+        "uniqueTo": "亚特兰蒂斯",
+        "cost": 1,
+        "science": 3,
+        "production": 3,
+        "food": 2,
+        "faith": 1,
+        "culture": 3,
+        "happiness": 2,
+        "cityStrength": 3,
+        "isNationalWonder": true,
+        "uniques": [
+            "Indicates the capital city",
+            "Gain [30] [Science]"
+            //"Free [Great Scientist] appears"
+        ],
+        "uniqueText": "代替原版的首都，并开始免费获得一个科技"
+    },*/
+    {
+        "name": "护盾堤坝",
+        "replaces": "Walls",
+        "uniqueTo": "亚特兰蒂斯",
+        "cost": 60,
+        "cityStrength": 5,
+        "cityHealth": 50,
+        "uniques": [
+            "[25]% Strength"
+        ],
+        "requiredTech": "Masonry",
+        "uniqueText": "代替原版城墙"
+    },
+    {
+        "name": "水穹台",
+        "replaces": "Observatory",
+        "uniqueTo": "亚特兰蒂斯",
+        "cost": 125,
+        "culture": 1,
+        "happiness": 1,
+        "maintenance": 0,
+        "hurryCostModifier": 35,
+        "percentStatBonus": {"science": 50},
+        "specialistSlots": {
+            "Scientist": 1
+        },
+        "uniques": [
+            "Must be next to [Ocean]"
+            //"[+20]% [Science] <after discovering [Astronomy]>"
+        ],
+        "uniqueText": "加20%的科技在这个城市"
+    },
+    {
+        "name": "气压漩涡",
+        "replaces": "Forge",
+        "uniqueTo": "亚特兰蒂斯",
+        "production": 6,
+        "hurryCostModifier": 10,
+        "requiredTech": "Agriculture",
+        "uniques": [
+            "[+15]% Production when constructing [Spaceship part] units [in this city]",
+            "[+15]% Production when constructing [Ocean] units [in this city]",
+            "[+1 Production] per [5] population [in all cities]",
+            "[+1 Production] from [Ocean] tiles [in this city]"
+        ],
+        "uniqueText": "代替原版的锻造场，每2个人口+1产能，在海洋地块上再加+1产能"
+    },
+    {
+        "name": "文艺复兴档案馆",
+        "cost": 700,
+        "production": 2,
+        "gold": 10,
+        "happiness": 5,
+        "culture": 5,
+        "science": 6,
+        "faith": 2,
+        "isWonder": true,
+        //"greatPersonPoints": {
+            //"Geat Engineer": 1,
+            //"Great Scientist": 1,
+            //"Great Artist": 1,
+            //"Great General": 1},
+        "percentStatBonus": {
+            "science": 50,
+            "gold": 10
+        },
+        "uniques": [
+            "[+5]% [Production]",
+            "[+5]% [Food]",
+            "[+5]% [Science]",
+            "[+5]% [Culture]",
+            //"All newly-trained [All] units [in all city] receive the [辉煌时代] promotion",
+            //"Gain a free [少年宫] [in all city]",
+            "Only available <if [少年宫] is constructed in all [non-[Puppeted]] cities>", 
+        ],
+        "requiredTech": "Scientific Theory",
+        "quote": "我们是过去迷失知识的再造者，未来全新知识的创造者，我们将用文艺复兴智慧的光芒，扫清世间愚钝无知的黑暗——文游U926382501全体成员。'"
+    },
+    {
+        "name": "少年宫",
+        "cost": 300,
+        "gold": 4,
+        "happiness": 1,
+        "culture": 3,
+        "science": 2,
+        "maintenance": 5,
+        "specialistSlots": {
+            "Scientist": 2
+        },
+        "uniques": [
+            "[+10]% Golden Age length",
+            "[+25]% Great Person generation [in this city]",
+            "All newly-trained [Air] units [in this city] receive the [辉煌时代] promotion",
+            "Cost increases by [30] per owned city",
+            //"Unbuildable"
+        ],
+        "requiredTech": "Economics",
+    },
+    {
+        "name": "显示-献祭",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "Unavailable <in cities with a [Sink into]>",
+            "Unbuildable <when below [0] [建筑开关]> <hidden from users>",
+            "Remove [隐藏-献祭] [in this city]  <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "建造这个会隐藏（显示献祭）的建筑"
+    },
+    {
+        "name": "隐藏-献祭",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "Unavailable <in cities with a [Roused]>",
+            "Unbuildable <when below [0] [建筑开关]> <hidden from users>",
+            "Remove [显示-献祭] [in this city]  <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "建造这个会隐藏（显示献祭）的建筑和其他献祭获得数值的建筑"
+    },
+    {
+        "name": "献祭-经济1级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-1] population [in this city]",
+            "Requires at least [2] population",
+            "Gain [20]-[80] [Gold]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机金钱"
+    },
+    {
+        "name": "献祭-经济2级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-5] population [in this city]",
+            "Requires at least [6] population",
+            "Gain [80]-[160] [Gold]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机金钱"
+    },
+    {
+         "name": "献祭-经济3级",
+         "uniqueTo": "息灵族",
+         "cost": 0,
+         "uniques": [
+             "[-10] population [in this city]",
+             "Requires at least [11] population",
+             "Gain [160]-[400] [Gold]",
+             "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+             "Will not be displayed in Civilopedia",
+             "Destroyed when the city is captured"
+         ],
+         "uniqueText": "减少人口获得随机金钱"
+     },
+    {
+        "name": "献祭-经济4级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-15] population [in this city]",
+            "Requires at least [16] population",
+            "Gain [400]-[900] [Gold]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机金钱"
+    },
+    {
+        "name": "献祭-经济5级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-20] population [in this city]",
+            "Requires at least [21] population",
+            "Gain [900]-[2800] [Gold]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机金钱"
+    },
+    {
+        "name": "献祭-信仰1级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-1] population [in this city]",
+            "Requires at least [2] population",
+            "Gain [20]-[80] [Faith]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机信仰"
+    },
+    {
+        "name": "献祭-信仰2级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-5] population [in this city]",
+            "Requires at least [6] population",
+            "Gain [80]-[160] [Faith]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机信仰"
+    },
+    {
+        "name": "献祭-信仰3级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-10] population [in this city]",
+            "Requires at least [11] population",
+            "Gain [160]-[400] [Faith]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机信仰"
+    },
+    {
+        "name": "献祭-信仰4级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-15] population [in this city]",
+            "Requires at least [16] population",
+            "Gain [400]-[900] [Faith]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机信仰"
+    },
+    {
+        "name": "献祭-信仰5级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-15] population [in this city]",
+            "Requires at least [16] population",
+            "Gain [900]-[2800] [Faith]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机信仰"
+    },
+    {
+        "name": "献祭-科技1级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-1] population [in this city]",
+            "Requires at least [2] population",
+            "Gain [20]-[40] [Science]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机科技"
+    },
+    {
+        "name": "献祭-科技2级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-5] population [in this city]",
+            "Requires at least [6] population",
+            "Gain [40]-[100] [Science]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机科技"
+    },
+    {
+        "name": "献祭-科技3级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-10] population [in this city]",
+            "Requires at least [11] population",
+            "Gain [100]-[300] [Science]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机科技"
+    },
+    {
+        "name": "献祭-科技4级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-15] population [in this city]",
+            "Requires at least [16] population",
+            "Gain [300]-[600] [Science]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机科技"
+    },
+    {
+        "name": "献祭-科技5级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-20] population [in this city]",
+            "Requires at least [21] population",
+            "Gain [600]-[800] [Science]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机科技"
+    },
+    {
+        "name": "献祭-文化1级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-1] population [in this city]",
+            "Requires at least [2] population",
+            "Gain [20]-[40] [Culture]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机文化"
+    },
+    {
+        "name": "献祭-文化2级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-5] population [in this city]",
+            "Requires at least [6] population",
+            "Gain [40]-[100] [Culture]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机文化"
+    },
+    {
+        "name": "献祭-文化3级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-10] population [in this city]",
+            "Requires at least [11] population",
+            "Gain [100]-[300] [Culture]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机文化"
+    },
+    {
+        "name": "献祭-文化4级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-15] population [in this city]",
+            "Requires at least [16] population",
+            "Gain [300]-[600] [Culture]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机文化"
+    },
+    {
+        "name": "献祭-文化5级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-20] population [in this city]",
+            "Requires at least [21] population",
+            "Gain [600]-[800] [Culture]",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "uniqueText": "减少人口获得随机文化"
+    },
+    /*{
+        "name": "献祭-产能1级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-1] population [in this city]",
+            "Requires at least [2] population",
+            "Gain [10]-[20] [Production]",
+            "Destroyed when built in the city",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            
+        ]
+    },
+    {
+        "name": "献祭-产能2级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-5] population [in this city]",
+            "Requires at least [6] population",
+            "Gain [20]-[60] [Production]",
+            "Destroyed when built in the city",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            
+        ]
+    },
+    {
+        "name": "献祭-产能3级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-10] population [in this city]",
+            "Requires at least [11] population",
+            "Gain [60]-[120] [Production]",
+            "Destroyed when built in the city",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            
+        ]
+    },
+    {
+        "name": "献祭-产能4级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-15] population [in this city]",
+            "Requires at least [16] population",
+            "Gain [120]-[240] [Production]",
+            "Destroyed when built in the city",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            
+        ]
+    },
+    {
+        "name": "献祭-产能5级",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-20] population [in this city]",
+            "Requires at least [21] population",
+            "Gain [240]-[400] [Production]",
+            "Destroyed when built in the city",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            
+        ]
+    },
+    {
+        "name": "献祭-产能",
+        "uniqueTo": "息灵族",
+        "cost": 0,
+        "uniques": [
+            "[-15] population [in this city]",
+            "Requires at least [16] population",
+            "Can speed up construction of a building",
+            提供产能"Destroyed when built in the city",
+            "Only available <in cities without a [隐藏-献祭]> <hidden from users>",
+            
+        ]
+    },
+    */{
+        "name": "榨汁机",
+        "cost": 0,
+        "uniques": [
+            "[-20] population [in this city]",
+            "Requires at least [21] population",
+            "Provides [1] [龙珠]",
+            "Hidden when [许愿] Victory is disabled"
+        ],
+        "uniqueText": "减少人口获得龙珠,集齐七颗龙珠可以建造许愿池,建造完成后可以获得许愿胜利"
+    },
+    {
+        "name": "生命图腾1",
+        "uniqueTo": "息灵族",
+        "cost": 50,
+        "maintenance": 2,
+        "uniques": [
+            "[10]% Food is carried over after population increases [in this city]",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "requiredTech": "Pottery",
+        "uniqueText": "人口增长加快"
+    },
+    {
+        "name": "生命图腾2",
+        "uniqueTo": "息灵族",
+        "cost": 100,
+        "maintenance": 3,
+        "uniques": [
+            "[10]% Food is carried over after population increases [in this city]",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "requiredTech": "Engineering",
+        "requiredBuilding": "生命图腾1",
+        "uniqueText": "人口增长加快"
+    },
+    {
+        "name": "生命图腾3",
+        "uniqueTo": "息灵族",
+        "cost": 150,
+        "maintenance": 4,
+        "uniques": [
+            "[10]% Food is carried over after population increases [in this city]",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "requiredTech": "Chemistry",
+        "requiredBuilding": "生命图腾2",
+        "uniqueText": "人口增长加快"
+    },
+    {
+        "name": "生命图腾4",
+        "uniqueTo": "息灵族",
+        "cost": 200,
+        "maintenance": 5,
+        "uniques": [
+            "[10]% Food is carried over after population increases [in this city]",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "requiredTech": "Biology",
+        "requiredBuilding": "生命图腾3",
+        "uniqueText": "人口增长加快"
+    },
+    {
+        "name": "生命图腾5",
+        "uniqueTo": "息灵族",
+        "cost": 250,
+        "maintenance": 6,
+        "uniques": [
+            "[10]% Food is carried over after population increases [in this city]",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ],
+        "requiredTech": "Pharmaceuticals",
+        "requiredBuilding": "生命图腾4",
+        "uniqueText": "人口增长加快"
+    }
+]

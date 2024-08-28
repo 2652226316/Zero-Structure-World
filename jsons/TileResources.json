@@ -1,0 +1,29 @@
+[
+	{
+	  "name": "龙珠",
+	  "resourceType": "Strategic",
+	  "revealedBy": "资源科技",
+	  "uniques": [
+		"Cannot be traded",
+		"Stockpiled"
+	  ]
+	},
+		{
+	  "name": "灵气",
+	  "resourceType": "Strategic",
+	  "revealedBy": "资源科技",
+	  "uniques": [
+		"Cannot be traded",
+		"Stockpiled"
+	  ]
+	},
+	{
+	  "name": "建筑开关",
+	  "resourceType": "Strategic",
+	  "revealedBy": "特殊科技",
+	  "uniques": [
+		"Cannot be traded",
+		"Not shown on world screen"
+	  ]
+	}
+  ]
